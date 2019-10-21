@@ -1,5 +1,5 @@
 /******************************************************************************** 
-  File:           reg_file.sv
+  File:           reg_file_tb.sv
   Description:   	This module implements the test bench for the reg_file module
   Date:           October 2019
   Author:         Justin Wilson, jkw0002@uah.edu
