@@ -29,7 +29,7 @@
 *********************************************************************************/
 `timescale 1ns/1ps // Timescale for Test Bench, ignored during synthesis
 
-module alu 
+module alu
 	#(parameter N = 32)
 	(a, b, aluControl, aluResult, zero);
 	
@@ -43,13 +43,22 @@ module alu
 	
 	assign zero = (aluResult == 0);
 	
-	@always_comb
+	always_comb
 		case (aluControl)
 			0: aluResult = a + b;
 			1: aluResult = a - b;
 			2: aluResult = a & b;
 			3: aluResult = a | b;
 			4: aluResult = ~(a | b);
-			5: aluResult = a < b ? 1: 0;
+			5: begin
+			 if (a[N-1] && !b[N-1])
+			     aluResult = 1;
+			 else if (!a[N-1] && !b[N-1])
+			     aluResult = a[N-2: 0] < b[N-2: 0];
+			 else if (a[N-1] && b[N-1]) begin
+			     aluResult = b[N-2:0] < a[N-2:0];
+			 end else
+			     aluResult = 0;
+			end
 		endcase
 endmodule
