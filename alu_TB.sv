@@ -11,18 +11,21 @@ module alu_TB();
 	// Wires for inputs
 	logic [31:0] a, b;
 	logic [2:0] aluControl;
+	logic [4:0] shamt;
 	
 	// Wires for outputs
 	logic [31:0] aluResult;
 	logic zero;
 	
 	// Declare DUT
-	alu dut(.a(a), .b(b), .aluControl(aluControl), .aluResult(aluResult), .zero(zero));
+	alu dut(.a(a), .b(b), .aluControl(aluControl), .shamt(shamt), .aluResult(aluResult), .zero(zero));
 	
 	always 
 	begin
 		$monitor("time=%5d ns, a=%b, b=%b, aluControl=%b, aluResult=%b, zero=%d",
 						$time, a, b, aluControl, aluResult, zero);
+		
+		shamt=5'b00000;
 		
 		// Addition
 		aluControl = 0;
@@ -231,6 +234,30 @@ module alu_TB();
 		if (aluResult != 0 || zero != 1)
 		begin
 		  $display("ERROR: %d < %d = %d [zero=%d] but expected %d [zero=%d]", a, b, aluResult, zero, 0, 1);
+		  $finish;
+		end
+		
+		//Shift Left
+		aluControl = 3'd6;
+		a = 32'h0000FF00;
+		b = 0;
+		shamt = 5'd16;
+		#10;
+		if (aluResult != 32'hFF000000 || zero != 0)
+		begin
+		  $display("ERROR: %d < %d = %d [zero=%d] but expected %d [zero=%d]", a, b, aluResult, zero, 32'hFF000000, 0);
+		  $finish;
+		end
+		
+		//Shift Right
+		aluControl = 3'd7;
+		a = 32'hFF000000;
+		b = 0;
+		shamt = 5'd16;
+		#10;
+		if (aluResult != 32'h0000FF00 || zero != 0)
+		begin
+		  $display("ERROR: %d < %d = %d [zero=%d] but expected %d [zero=%d]", a, b, aluResult, zero, 32'h0000FF00, 0);
 		  $finish;
 		end
 		

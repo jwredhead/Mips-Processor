@@ -31,11 +31,12 @@
 
 module alu
 	#(parameter N = 32)
-	(a, b, aluControl, aluResult, zero);
+	(a, b, aluControl, shamt, aluResult, zero);
 	
 	// Signals for inputs
 	input logic [N-1:0] a, b;
 	input logic [2:0] aluControl;
+	input logic [4:0] shamt;
 	
 	// Signals for outputs
 	output logic [N-1:0] aluResult;
@@ -60,5 +61,7 @@ module alu
 			 end else
 			     aluResult = 0;
 			end
+			6: aluResult = a << shamt;
+			7: aluResult = a >> shamt;
 		endcase
 endmodule
