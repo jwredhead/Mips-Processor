@@ -33,6 +33,17 @@
 						BC - Branch Completion
 						JC - Jump Completion
 						
+						Instruction Decoding
+						During instruction decoding stage this is how the op input signal is decoded:
+						if op = 0, R-type instruction, follow EX -> RC -> IF path
+						if op[5] = 1, SW/LW instruction follow the following paths:
+							if op[3] = 1, SW instruction, follow MAC -> MAW -> IF path
+							if op[3] = 0, LW instruction, follow MAC -> MAR -> WB -> IF path
+						if op[2] = 1, Branch instruction, follow BC -> IF path
+						if op[1] = 1, Branch instruction, follow JC -> IF path
+						
+						otherwise return to IF state as instruction is not implemented
+						
   Date:           October 2019
   Author:         Justin Wilson, jkw0002@uah.edu
 				
@@ -43,7 +54,7 @@ module mips_control(clk, reset, op, memwrite, memread, alusrca, alusrcb, pcen, p
 
 	// Inputs
 	input logic clk, reset;
-	input logic [0:5] op;
+	input logic [5:0] op;
 	
 	// Outputs
 	output logic memwrite, memread, alusrca, pcen, memtoreg, regdst, iord, regwrite, irwrite;
@@ -65,11 +76,13 @@ module mips_control(clk, reset, op, memwrite, memread, alusrca, alusrcb, pcen, p
 	begin: state_table
 		case (CS)
 			IF: 	NS = ID;
-			ID: 	if (~op) NS = EX;
-					else if (op[5]) NS = MAC;
-					else if (op[2]) NS = BC;
-					else if (op[1]) NS = JC;
-					else NS = IF;
+			ID: 	casez (op)
+						6'b000000: 	NS = EX;
+						6'b1??00?: 	NS = MAC;
+						6'b0??10?: 	NS = BC;
+						6'b0??01?: 	NS = JC;
+						default:		NS = IF;
+					endcase
 			MAC:	if (op[3]) NS = MAW;
 					else NS = MAR;
 			MAR:	NS = WB;
@@ -85,16 +98,17 @@ module mips_control(clk, reset, op, memwrite, memread, alusrca, alusrcb, pcen, p
 		
 	// Outputs
 	assign memwrite = (CS == MAW);
-	assign memread = 	(CS == IF) || (CS == MAR);
-	assign pcen = 		(CS == IF) || (CS == JC);
+	assign memread = 	(CS == IF) || (CS == MAR) || (CS == WB);
+	assign pcen = 		(CS == IF) || (CS == BC) || (CS == JC);
 	assign memtoreg = (CS == WB);
 	assign regdst = 	(CS == RC);
 	assign iord = 		(CS > MAC) && (CS < EX);
-	assign regwrite =	(CS == RC);
+	assign regwrite =	(CS == RC) || (CS == WB);
 	assign irwrite = 	(CS == IF);
 	assign alusrca =	(CS > ID) && (CS < JC);
 	assign alusrcb = 	((CS > WB) && (CS < JC)) ? 2'b00 :
 							((CS > ID) && (CS < EX)) ? 2'b10 :
+							(CS == ID) ? 2'b11:
 							2'b01;	
 	assign pcsource =	(CS == JC) ? 2'b10 :
 							(CS == BC) ? 2'b01 :
