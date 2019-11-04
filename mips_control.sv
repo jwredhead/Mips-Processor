@@ -4,8 +4,8 @@
 												
 						Inputs:
 						clk - Clock Input
-						reset  - Write Enable
-						op - Read Address 0
+						reset  - Reset
+						op - Instruction bits [31:26]
 												
 						Outputs:
 						memwrite - Control Signal to write to memory 
