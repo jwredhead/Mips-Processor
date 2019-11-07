@@ -1,6 +1,28 @@
 /******************************************************************************** 
   File:           datapath.sv
-  Description:   	This module implements the datapath module of the MIPS processor,
+  Description:   	This module implements the datapath module of the MIPS processor.
+  
+						Inputs:
+						clk - Clock Signal
+						reset - Reset Signal
+						memdata - Data read from off processor memory
+						alusrca - Control Signal for ALUSRCA mux
+						alusrcb - Control Signal for ALUSRCB mux
+						pcen - Control Signal to allow update of PC register
+						pcsource - Control Signal for PCSOURCE mux
+						memtoreg - Control Signal for MEMDATAREG mu
+						regdst - Control Signal for REGDEST mux
+						iord - Control Signal for INSTR_DESTADDRESS mux
+						regwrite - Control Signal for enabling writes to register file
+						irwrite - Control Signal for enabling writes to Instruction register
+						alucontrol - Control Signal for MIPS ALU module
+						
+						Outputs:
+						addr - Address for reading to or writing from off processor memory
+						writedata - Data to be written to off processory memory
+						op - Instruction bits [31:26]
+						zero - Zero bit from ALU
+						funct - Instruction bits [5:0]
                   
   Date:           October 2019
   Author:        	Justin Wilson, jkw0002@uah.edu
@@ -8,7 +30,7 @@
 *********************************************************************************/
 `timescale 1ns/1ps // Timescale for Test Bench, ignored during synthesis
 module mips_datapath (clk, reset, memdata, alusrca, alusrcb, pcen, pcsource, memtoreg, regdst, iord, regwrite, irwrite, alucontrol,
-								addr, writedata, op, zero, funct);
+								addr, writedata, op, zero, funct, wrAddr, rdAddr1, rdAddr2, wrData, Ain, Bin);
 								
 	// Inputs
 	input logic clk, reset, alusrca, pcen, memtoreg, regdst, iord, regwrite, irwrite;
@@ -21,9 +43,13 @@ module mips_datapath (clk, reset, memdata, alusrca, alusrcb, pcen, pcsource, mem
 	output logic [5:0] op, funct;
 	output logic [31:0] addr, writedata;
 	
+	// Wires for probing Register File during operation
+	output logic [4:0] wrAddr, rdAddr1, rdAddr2;
+	output logic [31:0] Ain, Bin, wrData;
+	
 	// Internal Signals
-	logic [31:0] pcIn, pcOut, instruct, memOut, aluInA, aluInB, aluOut, Ain, Aout, Bin, Bout, wrData, aluResult;
-	logic [4:0] wrAddr, shamt;
+	logic [31:0] pcIn, pcOut, instruct, memOut, aluInA, aluInB, aluOut, Aout, Bout, aluResult;
+	logic [4:0] shamt;
 	logic pc_enable;
 	
 	// PC Enable
@@ -35,6 +61,10 @@ module mips_datapath (clk, reset, memdata, alusrca, alusrcb, pcen, pcsource, mem
 	// Instruction Register
 	register #(32) IR(clk, reset, irwrite, memdata, instruct); 
 	
+	// Pull Read Addresses out of Instruction
+	assign rdAddr1 = instruct[25:21];
+	assign rdAddr2 = instruct[20:16];
+	
 	// Memory Data Register
 	register #(32) MDR(clk, reset, 1'b1, memdata, memOut);
 	
@@ -45,7 +75,7 @@ module mips_datapath (clk, reset, memdata, alusrca, alusrcb, pcen, pcsource, mem
 	register #(32) B(clk, reset, 1'b1, Bin, Bout);
 	
 	// Register File
-	reg_file Registers(clk, regwrite, instruct[25:21], instruct[20:16], wrAddr, Ain, Bin, wrData);
+	reg_file Registers(clk, regwrite, rdAddr1, rdAddr2, wrAddr, Ain, Bin, wrData);
 	
 	// Register Write Mux
 	assign wrAddr = (regdst) ? instruct[15:11] : instruct[20:16];
