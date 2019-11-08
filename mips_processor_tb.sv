@@ -30,7 +30,7 @@ module mips_processor_tb();
 	// DUT
 	mips_processor dut(clk, reset, memdata, addr, memread, memwrite, writedata);
 	
-	assign pcout = dut.datapath.pcout;
+	assign pcout = dut.datapath.pcOut;
 	assign wrData = dut.datapath.wrData;
 	assign Ain = dut.datapath.Ain;
 	assign Bin = dut.datapath.Bin;
