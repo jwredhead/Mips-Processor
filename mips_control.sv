@@ -4,8 +4,8 @@
 												
 						Inputs:
 						clk - Clock Input
-						reset  - Reset
-						op - Instruction bits [31:26]
+						reset  - Write Enable
+						op - Read Address 0
 												
 						Outputs:
 						memwrite - Control Signal to write to memory 
@@ -50,17 +50,18 @@
 *********************************************************************************/
 `timescale 1ns/1ps // Timescale for Test Bench, ignored during synthesis
 
-module mips_control(clk, reset, op, memwrite, memread, alusrca, alusrcb, pcen, pcsource, memtoreg, regdst, iord, regwrite, irwrite, aluop);
+module mips_control(clk, reset, op, memwrite, memread, alusrca, alusrcb, pcwrite, pcwriteCond, pcsource, memtoreg, regdst, iord, regwrite, irwrite, aluop);
 
 	// Inputs
 	input logic clk, reset;
 	input logic [5:0] op;
 	
 	// Outputs
-	output logic memwrite, memread, alusrca, pcen, memtoreg, regdst, iord, regwrite, irwrite;
-	output logic [1:0] alusrcb, pcsource, aluop;
+	output logic memwrite, memread, alusrca, pcwrite, pcwriteCond, memtoreg, regdst, iord, regwrite, irwrite;
+	output logic [1:0] alusrcb, pcsource;
+	output logic [2:0] aluop;
 	
-	typedef enum logic [3:0] {IF, ID, MAC, MAR, MAW, WB, EX, RC, BC, JC} statetype;
+	typedef enum logic [3:0] {IF, ID, EXI, RCI, MAC, MAR, MAW, WB, EX, RC, BC, BNC, JC} statetype;
 	
 	statetype CS, NS;
 	
@@ -78,9 +79,11 @@ module mips_control(clk, reset, op, memwrite, memread, alusrca, alusrcb, pcen, p
 			IF: 	NS = ID;
 			ID: 	casez (op)
 						6'b000000: 	NS = EX;
-						6'b1??00?: 	NS = MAC;
-						6'b0??10?: 	NS = BC;
-						6'b0??01?: 	NS = JC;
+						6'b1?????: 	NS = MAC;
+						6'b000100: 	NS = BC;
+						6'b000101:	NS = BNC;
+						6'b00001?: 	NS = JC;
+						6'b001???:	NS = EXI;
 						default:		NS = IF;
 					endcase
 			MAC:	if (op[3]) NS = MAW;
@@ -89,31 +92,64 @@ module mips_control(clk, reset, op, memwrite, memread, alusrca, alusrcb, pcen, p
 			MAW:	NS = IF;
 			WB:	NS = IF;
 			EX:	NS = RC;
+			EXI:	NS = RCI;
 			RC:	NS = IF;
+			RCI:	NS = IF;
 			BC:	NS = IF;
+			BNC:	NS = IF;
 			JC:	NS = IF;
 		default: NS = IF;
 		endcase
 	end
+	
+	always_comb
+	begin: aluop_table
+		case (CS)
+			IF:	aluop = 3'b000;
+			ID:	aluop = 3'b000;
+			MAC:	aluop = 3'b000;
+			MAR:	aluop = 3'b000;
+			MAW:	aluop = 3'b000;
+			WB:	aluop = 3'b000;
+			EX:	aluop = 3'b010;
+			EXI:	case (op[2:0])
+						3'b000:	aluop = 3'b100;
+						3'b100:	aluop = 3'b110;
+						3'b101:	aluop = 3'b111;
+						3'b010:	aluop = 3'b101;
+					default: aluop = 3'b000;
+					endcase
+			RC:	aluop = 3'b010;
+			RCI:	case (op[2:0])
+						3'b000:	aluop = 3'b100;
+						3'b100:	aluop = 3'b110;
+						3'b101:	aluop = 3'b111;
+						3'b010:	aluop = 3'b101;
+					default: aluop = 3'b000;
+					endcase
+			BC:	aluop = 3'b001;
+			BNC:	aluop = 3'b011;
+			JC:	aluop = 3'b000;
+		default:	aluop = 3'b111;
+		endcase
+	end
 		
 	// Outputs
-	assign memwrite = (CS == MAW);
-	assign memread = 	(CS == IF) || (CS == MAR) || (CS == WB);
-	assign pcen = 		(CS == IF) || (CS == BC) || (CS == JC);
-	assign memtoreg = (CS == WB);
-	assign regdst = 	(CS == RC);
-	assign iord = 		(CS > MAC) && (CS < EX);
-	assign regwrite =	(CS == RC) || (CS == WB);
-	assign irwrite = 	(CS == IF);
-	assign alusrca =	(CS > ID) && (CS < JC);
-	assign alusrcb = 	((CS > WB) && (CS < JC)) ? 2'b00 :
-							((CS > ID) && (CS < EX)) ? 2'b10 :
-							(CS == ID) ? 2'b11:
-							2'b01;	
-	assign pcsource =	(CS == JC) ? 2'b10 :
-							(CS == BC) ? 2'b01 :
-							2'b00;
-	assign aluop = 	((CS == EX) || (CS == RC)) ? 2'b10 :
-							(CS == BC) ? 2'b01 :
-							2'b00;
-	endmodule
+	assign memwrite = 	(CS == MAW);
+	assign memread = 		(CS == IF) || (CS == MAR) || (CS == WB);
+	assign pcwrite = 		(CS == IF) || (CS == JC);
+	assign pcwriteCond=	(CS == BC) || (CS == BNC);
+	assign memtoreg = 	(CS == WB);
+	assign regdst = 		(CS == RC);
+	assign iord = 			(CS > MAC) && (CS < EX);
+	assign regwrite =		(CS == RC) || (CS == RCI) || (CS == WB);
+	assign irwrite = 		(CS == IF);
+	assign alusrca =		(CS > ID) && (CS < JC);
+	assign alusrcb = 		((CS > WB) && (CS < JC)) ? 2'b00 :
+								((CS > ID) && (CS < EX)) ? 2'b10 :
+								(CS == ID) ? 2'b11:
+								2'b01;	
+	assign pcsource =		(CS == JC) ? 2'b10 :
+								((CS == BC) || (CS == BNC)) ? 2'b01 :
+								2'b00;
+endmodule
