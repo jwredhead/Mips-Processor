@@ -30,19 +30,20 @@ module mips_processor (clk, reset, memdata, addr, memread, memwrite, writedata);
 	output logic [31:0] addr, writedata;
 	
 	// Internal Signals
-	logic alusrca, pcen, memtoreg, regdst, iord, regwrite, irwrite, zero;
-	logic [1:0] aluop, alusrcb, pcsource;
-	logic [2:0] alucontrol;
+	logic alusrca, pcwrite, pcwriteCond, memtoreg, regdst, iord, regwrite, irwrite, zero;
+	logic [1:0] alusrcb, pcsource;
+	logic [2:0] aluop;
+	logic [3:0] alucontrol;
 	logic [5:0] op, funct;
 	
 	// MIPS Controller
-	mips_control control(clk, reset, op, memwrite, memread, alusrca, alusrcb, pcen, pcsource, memtoreg, regdst, iord, regwrite, irwrite, aluop);
+	mips_control control(clk, reset, op, memwrite, memread, alusrca, alusrcb, pcwrite, pcwriteCond, pcsource, memtoreg, regdst, iord, regwrite, irwrite, aluop);
 	
 	// ALU Controller
 	alu_control a_control(funct, aluop, alucontrol);
 	
 	// MIPS Datapath
-	mips_datapath datapath(clk, reset, memdata, alusrca, alusrcb, pcen, pcsource, memtoreg, regdst, iord, regwrite, irwrite, alucontrol,
+	mips_datapath datapath(clk, reset, memdata, alusrca, alusrcb, pcwrite, pcwriteCond, pcsource, memtoreg, regdst, iord, regwrite, irwrite, alucontrol,
 								addr, writedata, op, zero, funct);
 								
 endmodule
