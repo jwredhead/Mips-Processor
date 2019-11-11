@@ -45,8 +45,8 @@ module reg_file
 	
 	always @(posedge clk)
 		if (we) mem[wrAddr] = wrData;
-		
-	assign rdData0 = mem[rdAddr0];
-	assign rdData1 = mem[rdAddr1];
+	
+	assign rdData0 = (rdAddr0 == 0) ? 0 : mem[rdAddr0];
+	assign rdData1 = (rdAddr1 == 0) ? 0 : mem[rdAddr1];
 	
 endmodule
