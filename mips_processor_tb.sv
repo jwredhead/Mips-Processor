@@ -23,20 +23,24 @@ module mips_processor_tb();
 	logic [31:0] addr_exp, writedata_exp, wrData_exp, Ain_exp, Bin_exp, pcout_exp;
 	logic [4:0] wrAddr_exp, rdAddr1_exp, rdAddr2_exp;
 	
+	logic [31:0] ext_mem[90:0];
+	
 	// Test Vector Wires
-	logic[15:0] vectornum, errors;
-	logic [21:0] testvectors[100:0];
+	logic [15:0] vectornum, errors;
+	logic [191:0] datatestvectors[100:0];
+	logic [18:0] ctrltestvectors[100:0];
 	
 	// DUT
 	mips_processor dut(clk, reset, memdata, addr, memread, memwrite, writedata);
 	
-	assign pcout = dut.datapath.pcout;
+	assign pcout = dut.datapath.pcOut;
 	assign wrData = dut.datapath.wrData;
 	assign Ain = dut.datapath.Ain;
 	assign Bin = dut.datapath.Bin;
 	assign wrAddr = dut.datapath.wrAddr;
 	assign rdAddr1 = dut.datapath.instruct[25:21];
 	assign rdAddr2 = dut.datapath.instruct[20:16];
+	assign regwrite = dut.regwrite;
 	
 	always
 	begin
@@ -47,15 +51,20 @@ module mips_processor_tb();
 	begin 
 		$monitor ("time=%5d ns, clk=%b, reset=%b, memdata=%h, memread=%b, memwrite=%b, addr=%h, writedata=%h, pcout=%h, regwrite=%b, wrAddr=%b, rdAddr1=%b, rdAddr2=%b, wrData=%h, Ain=%h, Bin=%h",
 						$time, clk, reset, memdata, memread, memwrite, addr, writedata, pcout, regwrite, wrAddr, rdAddr1, rdAddr2, wrData, Ain, Bin);
-		$readmemh("mips_processor.tv", testvectors);
+		$readmemh("mips_init_mem.mem", ext_mem);
+		$readmemh("mips_processor_data.tv", datatestvectors);
+		$readmemb("mips_processor_ctrl.tv", ctrltestvectors);
 		vectornum = 0; errors = 0;
 	end
 	
 	always @(negedge clk)
 	begin
 		
-		#1; {reset, memdata, addr_exp, memread_exp, memwrite_exp, writedata_exp, pcout_exp, regwrite_exp, wrAddr_exp, rdAddr1_exp, rdAddr2_exp, wrData_exp, Ain_exp, Bin_exp} = testvectors[vectornum];
-	end
+		#1; 
+		memdata = ext_mem[addr];
+		{addr_exp, writedata_exp, pcout_exp, wrData_exp, Ain_exp, Bin_exp} = datatestvectors[vectornum];
+		{reset, memread_exp, memwrite_exp, regwrite_exp, wrAddr_exp, rdAddr1_exp, rdAddr2_exp} = ctrltestvectors[vectornum];
+		end
 	
 	always @(posedge clk)
 	begin
@@ -79,7 +88,7 @@ module mips_processor_tb();
 			errors = errors + 1;
 		end
 		vectornum = vectornum + 1;
-		if (testvectors[vectornum] == 'bx) begin
+		if (ctrltestvectors[vectornum] == 'bx) begin
 			$display("%d tests completed with %d errors", vectornum, errors);
 			$finish;
 		end
