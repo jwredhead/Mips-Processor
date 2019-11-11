@@ -35,7 +35,7 @@ module alu
 	
 	// Signals for inputs
 	input logic [N-1:0] a, b;
-	input logic [2:0] aluControl;
+	input logic [3:0] aluControl;
 	input logic [4:0] shamt;
 	
 	// Signals for outputs
@@ -61,7 +61,9 @@ module alu
 			 end else
 			     aluResult = 0;
 			end
-			6: aluResult = a << shamt;
-			7: aluResult = a >> shamt;
+			6: aluResult = b << shamt;
+			7: aluResult = b >> shamt;
+			8: aluResult = a && b;
+			default: aluResult = a;
 		endcase
 endmodule
