@@ -10,7 +10,7 @@ module alu_TB();
 
 	// Wires for inputs
 	logic [31:0] a, b;
-	logic [2:0] aluControl;
+	logic [3:0] aluControl;
 	logic [4:0] shamt;
 	
 	// Wires for outputs
@@ -31,7 +31,7 @@ module alu_TB();
 		aluControl = 0;
 		a = 125;
 		b = 360;
-		#10;
+		#25;
 		if (aluResult != 485 || zero != 0)
 		begin
 			$display("ERROR: %d + %d = %d [zero=%d] but expected %d [zero=%d]", a, b, aluResult, zero, 485, 0);

@@ -10,17 +10,17 @@ module alu_control_tb ();
 
 	// Wires for inputs
 	logic [5:0] funct;
-	logic [1:0] aluop;
+	logic [2:0] aluop;
 	
 	// Wires for outputs
-	logic [2:0] alucontrol;
+	logic [3:0] alucontrol;
 	
 	// Wires for expected outputs
-	logic [2:0] alucontrol_exp;
+	logic [3:0] alucontrol_exp;
 	
 	// Test Vector Wires
 	logic[15:0] vectornum, errors;
-	logic [10:0] testvectors[300:0];
+	logic [12:0] testvectors[512:0];
 	
 	// Clock Signal
 	logic clk;
