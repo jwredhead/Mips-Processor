@@ -35,7 +35,7 @@ module mips_datapath (clk, reset, memdata, alusrca, alusrcb, pcwrite, pcwriteCon
 	// Inputs
 	input logic clk, reset, alusrca, pcwrite, pcwriteCond, memtoreg, regdst, iord, regwrite, irwrite;
 	input logic [1:0] alusrcb, pcsource;
-	input logic [2:0] alucontrol;
+	input logic [3:0] alucontrol;
 	input logic [31:0] memdata;
 	
 	// Outputs
