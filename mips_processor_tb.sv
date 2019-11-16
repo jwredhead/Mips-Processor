@@ -88,7 +88,7 @@ module mips_processor_tb();
 			errors = errors + 1;
 		end
 		vectornum = vectornum + 1;
-		if (ctrltestvectors[vectornum] == 'bx) begin
+		if (vectornum > 92) begin
 			$display("%d tests completed with %d errors", vectornum, errors);
 			$finish;
 		end
