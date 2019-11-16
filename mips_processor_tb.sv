@@ -44,7 +44,7 @@ module mips_processor_tb();
 	
 	always
 	begin
-		clk = 0; #5; clk = 1; #5;
+		clk = 0; #288; clk = 1; #288;
 	end
 	
 	initial
@@ -58,9 +58,7 @@ module mips_processor_tb();
 	end
 	
 	always @(negedge clk)
-	begin
-		
-		#1; 
+	begin 
 		memdata = ext_mem[addr];
 		{addr_exp, writedata_exp, pcout_exp, wrData_exp, Ain_exp, Bin_exp} = datatestvectors[vectornum];
 		{reset, memread_exp, memwrite_exp, regwrite_exp, wrAddr_exp, rdAddr1_exp, rdAddr2_exp} = ctrltestvectors[vectornum];
@@ -68,7 +66,7 @@ module mips_processor_tb();
 	
 	always @(posedge clk)
 	begin
-		#1;
+		#144;
 		if (addr != addr_exp ||
 			memwrite != memwrite_exp ||
 			memread != memread_exp ||
@@ -82,7 +80,7 @@ module mips_processor_tb();
 			Ain != Ain_exp ||
 			Bin != Bin_exp)
 		begin
-			$display ("Error: Inputs- reset=%b, memdata", reset, memdata);
+			$display ("Error: Inputs- reset=%b, memdata= %h", reset, memdata);
 			$display ("Outputs- addr=%h (%h expected), memwrite=%b (%b expected), memread=%b (%b expected), writedata=%h (%h expected), pcout=%h (%h expected) regwrite=%b (%b expected), wrAddr=%b (%b expected), rdAddr1=%b (%b expected), rdAddr2=%b ($b expected), wrData=%h (%h expected), Ain=%h (%h expected), Bin=%h (%h expected)",
 							addr, addr_exp, memwrite, memwrite_exp, memread, memread_exp, writedata, writedata_exp, pcout, pcout_exp, regwrite, regwrite_exp, wrAddr, wrAddr_exp, rdAddr1, rdAddr1_exp, rdAddr2, rdAddr2_exp, wrData, wrData_exp, Ain, Ain_exp, Bin, Bin_exp);
 			errors = errors + 1;
