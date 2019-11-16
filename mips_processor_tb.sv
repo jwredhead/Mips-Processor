@@ -81,7 +81,7 @@ module mips_processor_tb();
 			Bin != Bin_exp)
 		begin
 			$display ("Error: Inputs- reset=%b, memdata= %h", reset, memdata);
-			$display ("Outputs- addr=%h (%h expected), memwrite=%b (%b expected), memread=%b (%b expected), writedata=%h (%h expected), pcout=%h (%h expected) regwrite=%b (%b expected), wrAddr=%b (%b expected), rdAddr1=%b (%b expected), rdAddr2=%b ($b expected), wrData=%h (%h expected), Ain=%h (%h expected), Bin=%h (%h expected)",
+			$display ("Outputs- addr=%h (%h expected), memwrite=%b (%b expected), memread=%b (%b expected), writedata=%h (%h expected), pcout=%h (%h expected), regwrite=%b (%b expected), wrAddr=%b (%b expected), rdAddr1=%b (%b expected), rdAddr2=%b (%b expected), wrData=%h (%h expected), Ain=%h (%h expected), Bin=%h (%h expected)",
 							addr, addr_exp, memwrite, memwrite_exp, memread, memread_exp, writedata, writedata_exp, pcout, pcout_exp, regwrite, regwrite_exp, wrAddr, wrAddr_exp, rdAddr1, rdAddr1_exp, rdAddr2, rdAddr2_exp, wrData, wrData_exp, Ain, Ain_exp, Bin, Bin_exp);
 			errors = errors + 1;
 		end
