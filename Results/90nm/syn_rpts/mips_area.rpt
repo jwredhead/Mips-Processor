@@ -1,0 +1,59 @@
+ 
+****************************************
+Report : area
+Design : mips_processor
+Version: M-2016.12-SP4
+Date   : Sat Nov 16 20:32:59 2019
+****************************************
+
+Library(s) Used:
+
+    saed90nm_max (File: /apps/synopsys2017/cafe/SAED/SAED90_EDK/SAED_EDK90nm/Digital_Standard_cell_Library/synopsys/models/saed90nm_max.db)
+
+Number of ports:                         1293
+Number of nets:                          6747
+Number of cells:                         5487
+Number of combinational cells:           4245
+Number of sequential cells:              1226
+Number of macros/black boxes:               0
+Number of buf/inv:                        651
+Number of references:                       3
+
+Combinational area:              45085.593035
+Buf/Inv area:                     3599.769693
+Noncombinational area:           30357.503624
+Macro/Black Box area:                0.000000
+Net Interconnect area:            7998.606215
+
+Total cell area:                 75443.096659
+Total area:                      83441.702873
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area            Local cell area
+                                  -------------------  ------------------------------ 
+Hierarchical cell                 Absolute    Percent  Combi-      Noncombi-   Black-
+                                  Total       Total    national    national    boxes   Design
+--------------------------------  ----------  -------  ----------  ----------  ------  ------------------
+mips_processor                    75443.0967    100.0      0.0000      0.0000  0.0000  mips_processor
+a_control                           225.7920      0.3    225.7920      0.0000  0.0000  alu_control
+control                             583.3728      0.8    483.8400     99.5328  0.0000  mips_control
+datapath                          74633.9319     98.9   2177.7408      0.0000  0.0000  mips_datapath
+datapath/A                         1212.8256      1.6    416.5632    796.2624  0.0000  register_width32_3
+datapath/B                         1212.8256      1.6    416.5632    796.2624  0.0000  register_width32_2
+datapath/IR                        1207.2960      1.6    411.0336    796.2624  0.0000  register_width32_5
+datapath/MDR                       1212.8256      1.6    416.5632    796.2624  0.0000  register_width32_4
+datapath/PC                        1229.4144      1.6    433.1520    796.2624  0.0000  register_width32_0
+datapath/Registers                55718.0920     73.9  30237.6955  25480.3965  0.0000  reg_file
+datapath/aluOutReg                 1212.8256      1.6    416.5632    796.2624  0.0000  register_width32_1
+datapath/m_alu                     9450.0864     12.5   2812.7232      0.0000  0.0000  alu
+datapath/m_alu/add_49               928.0512      1.2    928.0512      0.0000  0.0000  alu_DW01_add_0
+datapath/m_alu/r65                 1143.7056      1.5   1143.7056      0.0000  0.0000  alu_DW01_cmp6_0
+datapath/m_alu/sll_64              1775.0016      2.4   1775.0016      0.0000  0.0000  alu_DW01_ash_0
+datapath/m_alu/srl_65              1687.4496      2.2   1687.4496      0.0000  0.0000  alu_DW_rash_0
+datapath/m_alu/sub_50              1103.1552      1.5   1103.1552      0.0000  0.0000  alu_DW01_sub_0
+--------------------------------  ----------  -------  ----------  ----------  ------  ------------------
+Total                                                  45085.5930  30357.5036  0.0000
+
+1

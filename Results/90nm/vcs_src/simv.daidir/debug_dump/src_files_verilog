@@ -1,0 +1,8 @@
+/home/student/jkw0002/CPE527L/PROJECT/mips_processor/alu.sv
+/home/student/jkw0002/CPE527L/PROJECT/mips_processor/alu_control.sv
+/home/student/jkw0002/CPE527L/PROJECT/mips_processor/mips_control.sv
+/home/student/jkw0002/CPE527L/PROJECT/mips_processor/mips_datapath.sv
+/home/student/jkw0002/CPE527L/PROJECT/mips_processor/mips_processor.sv
+/home/student/jkw0002/CPE527L/PROJECT/mips_processor/mips_processor_tb.sv
+/home/student/jkw0002/CPE527L/PROJECT/mips_processor/reg_file.sv
+/home/student/jkw0002/CPE527L/PROJECT/mips_processor/register.sv

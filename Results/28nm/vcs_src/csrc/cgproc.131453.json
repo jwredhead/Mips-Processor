@@ -1,0 +1,68 @@
+{
+    "Modules": {
+        "...MASTER...": {},
+        "std": {
+            "Compiled": "Yes",
+            "Compiled Times": 7
+        },
+        "mips_processor_tb": {
+            "Compiled": "Yes",
+            "Compiled Times": 7
+        }
+    },
+    "reusePaths": {
+        "amcQw_d": {
+            "icPath": "csrc"
+        },
+        "reYIK_d": {
+            "icPath": "csrc"
+        }
+    },
+    "CompUnits": {
+        "BgV4N_d": {
+            "archive": "archive.6/_131453_archive_1.a",
+            "mod": "mips_processor_tb",
+            "mode": 4,
+            "out": "BgV4N_d.o",
+            "checksum": 0,
+            "bytes": 119015
+        }
+    },
+    "ObjArchives": [
+        {
+            "objects": [
+                [
+                    "BgV4N_d.o",
+                    119015
+                ],
+                [
+                    "amcQwB.o",
+                    102978
+                ]
+            ],
+            "archive": "archive.6/_131453_archive_1.a",
+            "size": 221993
+        }
+    ],
+    "stat": {
+        "ru_self_end": {
+            "ru_maxrss_kb": 73824,
+            "ru_utime_sec": 0.11118,
+            "ru_majflt": 0,
+            "ru_stime_sec": 0.056564999999999997,
+            "ru_minflt": 27903,
+            "ru_nvcsw": 35,
+            "ru_nivcsw": 4
+        },
+        "peak_mem_kb": 266796,
+        "ru_childs_end": {
+            "ru_maxrss_kb": 17536,
+            "ru_utime_sec": 0.0049439999999999996,
+            "ru_majflt": 0,
+            "ru_stime_sec": 0.019803000000000001,
+            "ru_minflt": 4957,
+            "ru_nvcsw": 9,
+            "ru_nivcsw": 18
+        }
+    }
+}

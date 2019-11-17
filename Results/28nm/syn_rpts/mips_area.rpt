@@ -1,0 +1,59 @@
+ 
+****************************************
+Report : area
+Design : mips_processor
+Version: M-2016.12-SP4
+Date   : Sun Nov 17 12:56:20 2019
+****************************************
+
+Library(s) Used:
+
+    saed32rvt_tt1p05v125c (File: /apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_rvt/db_ccs/saed32rvt_tt1p05v125c.db)
+
+Number of ports:                         1293
+Number of nets:                          7552
+Number of cells:                         5301
+Number of combinational cells:           4089
+Number of sequential cells:              1196
+Number of macros/black boxes:               0
+Number of buf/inv:                        625
+Number of references:                       3
+
+Combinational area:               9979.726644
+Buf/Inv area:                      977.183707
+Noncombinational area:            7851.016706
+Macro/Black Box area:                0.000000
+Net Interconnect area:            5533.057374
+
+Total cell area:                 17830.743350
+Total area:                      23363.800724
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area           Local cell area
+                                  -------------------  ---------------------------- 
+Hierarchical cell                 Absolute    Percent  Combi-     Noncombi-  Black-
+                                  Total       Total    national   national   boxes   Design
+--------------------------------  ----------  -------  ---------  ---------  ------  ------------------
+mips_processor                    17830.7433    100.0     0.0000     0.0000  0.0000  mips_processor
+a_control                            48.5415      0.3    48.5415     0.0000  0.0000  alu_control
+control                             146.8952      0.8   119.4477    27.4476  0.0000  mips_control
+datapath                          17635.3066     98.9   489.7355     0.0000  0.0000  mips_datapath
+datapath/A                          307.0060      1.7    95.5581   211.4478  0.0000  register_width32_3
+datapath/B                          307.0060      1.7    95.5581   211.4478  0.0000  register_width32_2
+datapath/IR                         307.0060      1.7    95.5581   211.4478  0.0000  register_width32_5
+datapath/MDR                        307.0060      1.7    95.5581   211.4478  0.0000  register_width32_4
+datapath/PC                         307.5142      1.7    96.0664   211.4478  0.0000  register_width32_0
+datapath/Registers                13023.3554     73.0  6468.4731  6554.8823  0.0000  reg_file
+datapath/aluOutReg                  307.0060      1.7    95.5581   211.4478  0.0000  register_width32_1
+datapath/m_alu                     2279.6717     12.8   706.7745     0.0000  0.0000  alu
+datapath/m_alu/add_49               168.4975      0.9   168.4975     0.0000  0.0000  alu_DW01_add_0
+datapath/m_alu/r65                  292.7739      1.6   292.7739     0.0000  0.0000  alu_DW01_cmp6_0
+datapath/m_alu/sll_64               510.3212      2.9   510.3212     0.0000  0.0000  alu_DW01_ash_0
+datapath/m_alu/srl_65               394.9398      2.2   394.9398     0.0000  0.0000  alu_DW_rash_0
+datapath/m_alu/sub_50               206.3649      1.2   206.3649     0.0000  0.0000  alu_DW01_sub_0
+--------------------------------  ----------  -------  ---------  ---------  ------  ------------------
+Total                                                  9979.7266  7851.0167  0.0000
+
+1

@@ -1,0 +1,1492 @@
+Loading db file '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_rvt/db_ccs/saed32rvt_ff1p16v125c.db'
+Loading db file '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_rvt/db_ccs/saed32rvt_ff1p16v25c.db'
+Loading db file '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_rvt/db_ccs/saed32rvt_ff1p16vn40c.db'
+Loading db file '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_rvt/db_ccs/saed32rvt_ss0p95v125c.db'
+Loading db file '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_rvt/db_ccs/saed32rvt_ss0p95v25c.db'
+Loading db file '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_rvt/db_ccs/saed32rvt_ss0p95vn40c.db'
+Loading db file '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_rvt/db_ccs/saed32rvt_tt1p05v125c.db'
+Loading db file '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_rvt/db_ccs/saed32rvt_tt1p05v25c.db'
+Loading db file '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_rvt/db_ccs/saed32rvt_tt1p05vn40c.db'
+Loading db file '/apps/synopsys2017/icc/M-2016.12-SP4/libraries/syn/gtech.db'
+Information: linking reference library : /apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_rvt/milkyway/saed32nm_rvt_1p9m. (PSYN-878)
+Information: linking reference library : /apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m. (PSYN-878)
+Warning: The 'TNBUFFX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'TNBUFFX32_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'TNBUFFX4_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'TNBUFFX8_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'XNOR2X1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'XNOR2X2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'XNOR3X1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'XNOR3X2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'XOR2X1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'XOR2X2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'XOR3X1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'XOR3X2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'SDFFSSRX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'SDFFSSRX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'SDFFX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'SDFFX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'SHFILL128_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'SHFILL1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'SHFILL2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'SHFILL3_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'SHFILL64_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'TIEH_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'TIEL_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'TNBUFFX16_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'TNBUFFX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'SDFFASRSX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'SDFFASRX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'SDFFASRX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'SDFFASX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'SDFFASX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'SDFFNARX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'SDFFNARX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'SDFFNASRX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'SDFFNASRX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'SDFFNASX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'SDFFNASX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'SDFFNX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'SDFFNX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RSDFFSRASRX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RSDFFSRASRX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RSDFFSRASX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RSDFFSRASX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RSDFFSRSSRX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RSDFFSRSSRX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RSDFFSRX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RSDFFSRX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RSDFFX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RSDFFX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'SDFFARX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'SDFFARX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'SDFFASRSX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RSDFFNSRASRNX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RSDFFNSRASRQX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RSDFFNSRASRQX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RSDFFNSRASRX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RSDFFNSRASRX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RSDFFNSRASX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RSDFFNSRASX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RSDFFNSRX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RSDFFNSRX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RSDFFNX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RSDFFNX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RSDFFSRARX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RSDFFSRARX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RDFFSRSSRX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RDFFSRSSRX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RDFFSRX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RDFFSRX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RDFFX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RDFFX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RSDFFARX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RSDFFARX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RSDFFNARX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RSDFFNARX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RSDFFNSRARX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RSDFFNSRARX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RSDFFNSRASRNX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RDFFNSRASRX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RDFFNSRASX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RDFFNSRASX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RDFFNSRX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RDFFNSRX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RDFFNX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RDFFNX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RDFFSRARX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RDFFSRARX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RDFFSRASRX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RDFFSRASRX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RDFFSRASX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RDFFSRASX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'PMT2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'PMT3_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RDFFARX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RDFFARX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RDFFNARX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RDFFNARX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RDFFNSRARX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RDFFNSRARX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RDFFNSRASRNX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RDFFNSRASRNX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RDFFNSRASRQX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RDFFNSRASRQX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RDFFNSRASRX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'OR2X1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'OR2X2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'OR2X4_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'OR3X1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'OR3X2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'OR3X4_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'OR4X1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'OR4X2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'OR4X4_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'PGX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'PGX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'PGX4_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'PMT1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'OA221X2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'OA222X1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'OA222X2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'OA22X1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'OA22X2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'OAI21X1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'OAI21X2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'OAI221X1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'OAI221X2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'OAI222X1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'OAI222X2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'OAI22X1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'OAI22X2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'NOR2X0_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'NOR2X1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'NOR2X2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'NOR2X4_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'NOR3X0_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'NOR3X1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'NOR3X2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'NOR3X4_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'NOR4X0_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'NOR4X1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'OA21X1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'OA21X2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'OA221X1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'NAND3X1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'NAND3X2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'NAND3X4_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'NAND4X0_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'NAND4X1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'NBUFFX16_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'NBUFFX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'NBUFFX32_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'NBUFFX4_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'NBUFFX8_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'NMT1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'NMT2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'NMT3_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LSUPX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LSUPX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LSUPX4_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LSUPX8_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'MUX21X1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'MUX21X2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'MUX41X1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'MUX41X2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'NAND2X0_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'NAND2X1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'NAND2X2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'NAND2X4_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'NAND3X0_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LSDNSSX8_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LSDNX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LSDNX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LSDNX4_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LSDNX8_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LSUPENCLX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LSUPENCLX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LSUPENCLX4_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LSUPENCLX8_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LSUPENX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LSUPENX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LSUPENX4_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LSUPENX8_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LSDNENCLX4_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LSDNENCLX8_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LSDNENSSX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LSDNENSSX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LSDNENSSX4_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LSDNENSSX8_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LSDNENX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LSDNENX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LSDNENX4_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LSDNENX8_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LSDNSSX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LSDNSSX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LSDNSSX4_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LASRX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LASX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LASX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LATCHX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LATCHX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LNANDX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LNANDX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LSDNENCLSSX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LSDNENCLSSX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LSDNENCLSSX4_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LSDNENCLSSX8_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LSDNENCLX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LSDNENCLX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'ISOLORAOX4_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'ISOLORAOX8_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'ISOLORX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'ISOLORX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'ISOLORX4_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'ISOLORX8_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LARX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LARX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LASRNX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LASRNX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LASRQX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LASRQX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LASRX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'INVX32_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'INVX4_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'INVX8_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'ISOLANDAOX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'ISOLANDAOX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'ISOLANDAOX4_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'ISOLANDAOX8_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'ISOLANDX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'ISOLANDX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'ISOLANDX4_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'ISOLANDX8_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'ISOLORAOX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'ISOLORAOX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'HEADX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'HEADX32_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'HEADX4_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'HEADX8_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'IBUFFX16_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'IBUFFX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'IBUFFX32_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'IBUFFX4_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'IBUFFX8_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'INVX0_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'INVX16_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'INVX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'INVX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'FOOTX16_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'FOOTX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'FOOTX32_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'FOOTX4_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'FOOTX8_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'HADDX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'HADDX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'HEAD2X16_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'HEAD2X2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'HEAD2X32_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'HEAD2X4_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'HEAD2X8_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'HEADX16_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'DFFSSRX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'DFFX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'DFFX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'DHFILLH2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'DHFILLHL2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'DHFILLHLHLS11_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'FADDX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'FADDX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'FOOT2X16_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'FOOT2X2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'FOOT2X32_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'FOOT2X4_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'FOOT2X8_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'DFFNARX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'DFFNARX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'DFFNASRNX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'DFFNASRNX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'DFFNASRQX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'DFFNASRQX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'DFFNASRX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'DFFNASRX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'DFFNASX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'DFFNASX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'DFFNX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'DFFNX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'DFFSSRX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'CLOAD1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'DCAP_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'DEC24X1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'DEC24X2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'DELLN1X2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'DELLN2X2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'DELLN3X2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'DFFARX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'DFFARX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'DFFASRX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'DFFASRX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'DFFASX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'DFFASX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'BUSKP_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'CGLNPRX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'CGLNPRX8_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'CGLNPSX16_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'CGLNPSX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'CGLNPSX4_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'CGLNPSX8_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'CGLPPRX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'CGLPPRX8_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'CGLPPSX16_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'CGLPPSX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'CGLPPSX4_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'CGLPPSX8_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'AOI21X2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'AOI221X1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'AOI221X2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'AOI222X1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'AOI222X2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'AOI22X1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'AOI22X2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'AOINVX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'AOINVX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'AOINVX4_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'BSLEX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'BSLEX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'BSLEX4_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'AO221X2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'AO222X1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'AO222X2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'AO22X1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'AO22X2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'AOBUFX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'AOBUFX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'AOBUFX4_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'AODFFARX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'AODFFARX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'AODFFNARX1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'AODFFNARX2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'AOI21X1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'AND2X1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'AND2X2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'AND2X4_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'AND3X1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'AND3X2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'AND3X4_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'AND4X1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'AND4X2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'AND4X4_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'ANTENNA_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'AO21X1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'AO21X2_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'AO221X1_LVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Information: linking reference library : /apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m. (PSYN-878)
+Warning: The 'TNBUFFX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'TNBUFFX32_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'TNBUFFX4_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'TNBUFFX8_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'XNOR2X1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'XNOR2X2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'XNOR3X1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'XNOR3X2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'XOR2X1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'XOR2X2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'XOR3X1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'XOR3X2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'SDFFSSRX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'SDFFSSRX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'SDFFX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'SDFFX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'SHFILL128_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'SHFILL1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'SHFILL2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'SHFILL3_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'SHFILL64_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'TIEH_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'TIEL_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'TNBUFFX16_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'TNBUFFX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'SDFFASRSX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'SDFFASRX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'SDFFASRX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'SDFFASX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'SDFFASX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'SDFFNARX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'SDFFNARX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'SDFFNASRX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'SDFFNASRX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'SDFFNASX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'SDFFNASX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'SDFFNX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'SDFFNX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RSDFFSRASRX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RSDFFSRASRX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RSDFFSRASX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RSDFFSRASX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RSDFFSRSSRX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RSDFFSRSSRX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RSDFFSRX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RSDFFSRX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RSDFFX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RSDFFX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'SDFFARX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'SDFFARX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'SDFFASRSX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RSDFFNSRASRNX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RSDFFNSRASRQX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RSDFFNSRASRQX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RSDFFNSRASRX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RSDFFNSRASRX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RSDFFNSRASX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RSDFFNSRASX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RSDFFNSRX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RSDFFNSRX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RSDFFNX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RSDFFNX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RSDFFSRARX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RSDFFSRARX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RDFFSRSSRX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RDFFSRSSRX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RDFFSRX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RDFFSRX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RDFFX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RDFFX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RSDFFARX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RSDFFARX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RSDFFNARX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RSDFFNARX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RSDFFNSRARX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RSDFFNSRARX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RSDFFNSRASRNX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RDFFNSRASRX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RDFFNSRASX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RDFFNSRASX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RDFFNSRX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RDFFNSRX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RDFFNX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RDFFNX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RDFFSRARX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RDFFSRARX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RDFFSRASRX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RDFFSRASRX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RDFFSRASX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RDFFSRASX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'PMT2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'PMT3_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RDFFARX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RDFFARX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RDFFNARX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RDFFNARX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RDFFNSRARX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RDFFNSRARX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RDFFNSRASRNX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RDFFNSRASRNX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RDFFNSRASRQX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RDFFNSRASRQX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'RDFFNSRASRX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'OR2X1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'OR2X2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'OR2X4_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'OR3X1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'OR3X2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'OR3X4_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'OR4X1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'OR4X2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'OR4X4_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'PGX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'PGX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'PGX4_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'PMT1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'OA221X2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'OA222X1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'OA222X2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'OA22X1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'OA22X2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'OAI21X1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'OAI21X2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'OAI221X1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'OAI221X2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'OAI222X1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'OAI222X2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'OAI22X1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'OAI22X2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'NOR2X0_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'NOR2X1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'NOR2X2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'NOR2X4_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'NOR3X0_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'NOR3X1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'NOR3X2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'NOR3X4_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'NOR4X0_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'NOR4X1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'OA21X1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'OA21X2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'OA221X1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'NAND3X1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'NAND3X2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'NAND3X4_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'NAND4X0_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'NAND4X1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'NBUFFX16_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'NBUFFX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'NBUFFX32_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'NBUFFX4_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'NBUFFX8_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'NMT1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'NMT2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'NMT3_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LSUPX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LSUPX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LSUPX4_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LSUPX8_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'MUX21X1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'MUX21X2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'MUX41X1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'MUX41X2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'NAND2X0_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'NAND2X1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'NAND2X2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'NAND2X4_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'NAND3X0_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LSDNSSX8_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LSDNX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LSDNX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LSDNX4_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LSDNX8_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LSUPENCLX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LSUPENCLX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LSUPENCLX4_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LSUPENCLX8_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LSUPENX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LSUPENX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LSUPENX4_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LSUPENX8_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LSDNENCLX4_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LSDNENCLX8_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LSDNENSSX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LSDNENSSX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LSDNENSSX4_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LSDNENSSX8_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LSDNENX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LSDNENX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LSDNENX4_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LSDNENX8_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LSDNSSX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LSDNSSX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LSDNSSX4_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LASRX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LASX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LASX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LATCHX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LATCHX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LNANDX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LNANDX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LSDNENCLSSX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LSDNENCLSSX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LSDNENCLSSX4_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LSDNENCLSSX8_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LSDNENCLX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LSDNENCLX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'ISOLORAOX4_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'ISOLORAOX8_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'ISOLORX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'ISOLORX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'ISOLORX4_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'ISOLORX8_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LARX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LARX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LASRNX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LASRNX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LASRQX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LASRQX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'LASRX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'INVX32_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'INVX4_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'INVX8_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'ISOLANDAOX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'ISOLANDAOX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'ISOLANDAOX4_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'ISOLANDAOX8_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'ISOLANDX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'ISOLANDX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'ISOLANDX4_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'ISOLANDX8_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'ISOLORAOX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'ISOLORAOX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'HEADX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'HEADX32_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'HEADX4_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'HEADX8_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'IBUFFX16_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'IBUFFX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'IBUFFX32_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'IBUFFX4_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'IBUFFX8_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'INVX0_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'INVX16_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'INVX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'INVX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'FOOTX16_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'FOOTX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'FOOTX32_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'FOOTX4_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'FOOTX8_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'HADDX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'HADDX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'HEAD2X16_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'HEAD2X2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'HEAD2X32_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'HEAD2X4_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'HEAD2X8_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'HEADX16_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'DFFSSRX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'DFFX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'DFFX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'DHFILLH2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'DHFILLHL2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'DHFILLHLHLS11_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'FADDX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'FADDX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'FOOT2X16_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'FOOT2X2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'FOOT2X32_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'FOOT2X4_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'FOOT2X8_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'DFFNARX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'DFFNARX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'DFFNASRNX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'DFFNASRNX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'DFFNASRQX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'DFFNASRQX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'DFFNASRX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'DFFNASRX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'DFFNASX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'DFFNASX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'DFFNX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'DFFNX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'DFFSSRX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'CLOAD1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'DCAP_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'DEC24X1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'DEC24X2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'DELLN1X2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'DELLN2X2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'DELLN3X2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'DFFARX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'DFFARX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'DFFASRX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'DFFASRX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'DFFASX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'DFFASX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'BUSKP_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'CGLNPRX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'CGLNPRX8_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'CGLNPSX16_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'CGLNPSX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'CGLNPSX4_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'CGLNPSX8_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'CGLPPRX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'CGLPPRX8_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'CGLPPSX16_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'CGLPPSX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'CGLPPSX4_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'CGLPPSX8_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'AOI21X2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'AOI221X1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'AOI221X2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'AOI222X1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'AOI222X2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'AOI22X1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'AOI22X2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'AOINVX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'AOINVX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'AOINVX4_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'BSLEX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'BSLEX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'BSLEX4_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'AO221X2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'AO222X1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'AO222X2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'AO22X1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'AO22X2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'AOBUFX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'AOBUFX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'AOBUFX4_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'AODFFARX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'AODFFARX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'AODFFNARX1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'AODFFNARX2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'AOI21X1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'AND2X1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'AND2X2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'AND2X4_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'AND3X1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'AND3X2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'AND3X4_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'AND4X1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'AND4X2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'AND4X4_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'ANTENNA_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'AO21X1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'AO21X2_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Warning: The 'AO221X1_HVT' cell in the '/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m' physical library does not 
+	have corresponding logical cell description. (PSYN-025)
+Information: Loading local_link_library attribute {/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_rvt/db_ccs/saed32rvt_tt1p05v125c.db, /apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_rvt/db_ccs/saed32rvt_tt1p05v25c.db, /apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_rvt/db_ccs/saed32rvt_tt1p05vn40c.db}. (MWDC-290)
+
+  Linking design 'mips_processor'
+  Using the following designs and libraries:
+  --------------------------------------------------------------------------
+  * (17 designs)              mips_processor.CEL, etc
+  saed32rvt_tt1p05v125c (library) /apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_rvt/db_ccs/saed32rvt_tt1p05v125c.db
+  saed32rvt_tt1p05v25c (library) /apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_rvt/db_ccs/saed32rvt_tt1p05v25c.db
+  saed32rvt_tt1p05vn40c (library) /apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_rvt/db_ccs/saed32rvt_tt1p05vn40c.db
+  saed32rvt_ff1p16v125c (library) /apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_rvt/db_ccs/saed32rvt_ff1p16v125c.db
+  saed32rvt_ff1p16v25c (library) /apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_rvt/db_ccs/saed32rvt_ff1p16v25c.db
+  saed32rvt_ff1p16vn40c (library) /apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_rvt/db_ccs/saed32rvt_ff1p16vn40c.db
+  saed32rvt_ss0p95v125c (library) /apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_rvt/db_ccs/saed32rvt_ss0p95v125c.db
+  saed32rvt_ss0p95v25c (library) /apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_rvt/db_ccs/saed32rvt_ss0p95v25c.db
+  saed32rvt_ss0p95vn40c (library) /apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_rvt/db_ccs/saed32rvt_ss0p95vn40c.db
+
+Information: The design has horizontal rows, and Y-symmetry has been used for sites. (MWDC-217)
+Floorplan loading succeeded.
+ 
+****************************************
+  Report : Chip Summary
+  Design : mips_processor
+  Version: M-2016.12-SP4
+  Date   : Sun Nov 17 15:43:45 2019
+****************************************
+Std cell utilization: 59.37%  (69349/(116802-0))
+(Non-fixed + Fixed)
+Std cell utilization: 59.11%  (68597/(116802-752))
+(Non-fixed only)
+Chip area:            116802   sites, bbox (30.00 30.00 202.37 202.22) um
+Std cell area:        69349    sites, (non-fixed:68597  fixed:752)
+                      5039     cells, (non-fixed:4956   fixed:83)
+Macro cell area:      0        sites
+                      0        cells
+Placement blockages:  0        sites, (excluding fixed std cells)
+                      752      sites, (include fixed std cells & chimney area)
+                      0        sites, (complete p/g net blockages)
+Routing blockages:    0        sites, (partial p/g net blockages)
+                      0        sites, (routing blockages and signal pre-route)
+Lib cell count:       44 
+Avg. std cell width:  1.91 um 
+Site array:           unit     (width: 0.152 um, height: 1.672 um, rows: 103)
+Physical DB scale:    1000 db_unit = 1 um 
+
+ 
+****************************************
+  Report : pnet options
+  Design : mips_processor
+  Version: M-2016.12-SP4
+  Date   : Sun Nov 17 15:43:45 2019
+****************************************
+
+
+--------------------------------------------------------------------
+Layer      Blockage   Min_width   Min_height   Via_additive     Density
+--------------------------------------------------------------------
+M1         none          ---         ---       via additive      ---
+M2         none          ---         ---       via additive      ---
+M3         none          ---         ---       via additive      ---
+M4         none          ---         ---       via additive      ---
+M5         none          ---         ---       via additive      ---
+M6         none          ---         ---       via additive      ---
+M7         none          ---         ---       via additive      ---
+M8         none          ---         ---       via additive      ---
+M9         none          ---         ---       via additive      ---
+MRDL       none          ---         ---       via additive      ---
+
+**********************************
+      Sub-Region Utilization      
+**********************************
+Number of regions with placement utilization 0 - 0.125 is 0 (0.00%)
+Number of regions with placement utilization 0.125 - 0.25 is 1 (0.23%)
+Number of regions with placement utilization 0.25 - 0.375 is 1 (0.23%)
+Number of regions with placement utilization 0.375 - 0.5 is 13 (2.95%)
+Number of regions with placement utilization 0.5 - 0.625 is 314 (71.20%)
+Number of regions with placement utilization 0.625 - 0.75 is 111 (25.17%)
+Number of regions with placement utilization 0.75 - 0.875 is 1 (0.23%)
+Number of regions with placement utilization 0.875 - 1 is 0 (0.00%)
+1

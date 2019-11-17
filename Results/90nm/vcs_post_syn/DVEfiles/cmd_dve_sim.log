@@ -1,0 +1,48 @@
+set ucliGUI::state
+set ucliGUI::state
+ucliCore::getToolPID
+synopsys::env hasTB
+trigger_hier_stack_context_switch 0
+synUtils::setDVEInitPhase 1
+synopsys::dump -type VPD -file /home/student/jkw0002/CPE527L/PROJECT/vcs_post_syn/inter.vpd -locking
+synopsys::dump -autoflush on -fid VPD0
+set ::dve_fid VPD0
+synUtils::setDVEInitPhase 0
+ucliCore::getToolPID
+synUtils::sendTool -active _icl_setToolSocket /tmp/smlnp2Y20oK
+synUtils::sendTool -active {_icl_start_rpc -version "M-2017.03-SP1_Full64" -sync_file /tmp/vcs_dve_rpc.jkw0002.16987}
+synUtils::sendTool -active {_icl_createSharedMemory /tmp/vcs_dve_general.jkw0002.16987}
+config endofsim noexit
+config onfail enable all
+config syscaddplainmembers
+config syscaddsourcenames
+config syscaddstructtypes
+synopsys::listing -disable
+synopsys::dump -add {mips_processor_tb} -scope "." -depth 1 -fid VPD0
+synopsys::dump -add {mips_processor_tb.ctrltestvectors mips_processor_tb.datatestvectors mips_processor_tb.ext_mem } -aggregates  -fid VPD0
+synopsys::run
+set ucliGUI::state
+set ucliGUI::state
+ucliCore::getToolPID
+ucliCore::stopTool -no_signal
+set synopsys::env(time) 11961792000
+ucliCore::getToolPID
+set ucliGUI::state
+set ucliGUI::state
+synopsys::run
+set ucliGUI::state
+set ucliGUI::state
+set synopsys::env(time) 24469632000
+set synopsys::env(time) 36720864000
+set synopsys::env(time) 48857184000
+set synopsys::env(time) 604808640if [catch {gui_sim_terminate}] {gui_sim_terminate -kill}
+synopsys::finish
+set ucliGUI::state
+set ucliGUI::state
+ucli_exit
+state
+if [catch {gui_sim_terminate}] {gui_sim_terminate -kill}
+synopsys::finish
+set ucliGUI::state
+set ucliGUI::state
+ucli_exit

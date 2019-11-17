@@ -1,0 +1,134 @@
+{
+    "MlibObjs": {},
+    "CompileStatus": "Successful",
+    "Misc": {
+        "daidir": "simv.daidir",
+        "cwd": "/home/student/jkw0002/CPE527L/PROJECT/vcs_src",
+        "daidir_abs": "/home/student/jkw0002/CPE527L/PROJECT/vcs_src/simv.daidir",
+        "csrc": "csrc",
+        "csrc_abs": "/home/student/jkw0002/CPE527L/PROJECT/vcs_src/csrc",
+        "default_output_dir": "csrc",
+        "archive_dir": "archive.5"
+    },
+    "PrevCompiledModules": {
+        "mips_processor_tb": {
+            "BgV4N_d": {
+                "checksum": 0,
+                "out": "BgV4N_d.o",
+                "bytes": 119015,
+                "mod": "mips_processor_tb",
+                "mode": 4,
+                "archive": "archive.5/_130315_archive_1.a"
+            }
+        },
+        "std": {
+            "reYIK_d": {
+                "out": "reYIK_d.o",
+                "checksum": 0,
+                "bytes": 42090,
+                "mod": "std",
+                "mode": 4,
+                "archive": "archive.5/_130315_archive_1.a"
+            }
+        },
+        "...MASTER...": {
+            "amcQw_d": {
+                "out": "objs/amcQw_d.o",
+                "checksum": 0,
+                "bytes": 7750,
+                "mod": "...MASTER...",
+                "mode": 4
+            }
+        }
+    },
+    "NameTable": {
+        "std": [
+            "std",
+            "reYIK",
+            "module",
+            1
+        ],
+        "mips_processor_tb": [
+            "mips_processor_tb",
+            "BgV4N",
+            "module",
+            2
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module",
+            3
+        ]
+    },
+    "CompileStrategy": "fullobj",
+    "CurCompileModules": [
+        "...MASTER...",
+        "...MASTER...",
+        "std",
+        "std",
+        "mips_processor_tb",
+        "mips_processor_tb"
+    ],
+    "stat": {
+        "outputSizePerQuad": 37.333972602739728,
+        "mopSpeed": 325908.49072851485,
+        "ru_self_cgstart": {
+            "ru_nivcsw": 4,
+            "ru_utime_sec": 0.072535000000000002,
+            "ru_majflt": 0,
+            "ru_stime_sec": 0.040296999999999999,
+            "ru_minflt": 25031,
+            "ru_maxrss_kb": 70244,
+            "ru_nvcsw": 35
+        },
+        "ru_childs_cgstart": {
+            "ru_nivcsw": 18,
+            "ru_utime_sec": 0.0032929999999999999,
+            "ru_majflt": 0,
+            "ru_stime_sec": 0.019642,
+            "ru_minflt": 4922,
+            "ru_maxrss_kb": 23308,
+            "ru_nvcsw": 9
+        },
+        "nQuads": 7300,
+        "nMops": 17031,
+        "quadSpeed": 139694.20364735826,
+        "totalObjSize": 272538,
+        "peak_mem_kb": 266748,
+        "ru_self_end": {
+            "ru_nivcsw": 4,
+            "ru_utime_sec": 0.124792,
+            "ru_majflt": 0,
+            "ru_stime_sec": 0.051272999999999999,
+            "ru_minflt": 28424,
+            "ru_maxrss_kb": 79292,
+            "ru_nvcsw": 36
+        },
+        "ru_childs_end": {
+            "ru_nivcsw": 20,
+            "ru_utime_sec": 0.0042399999999999998,
+            "ru_majflt": 0,
+            "ru_stime_sec": 0.021536,
+            "ru_minflt": 5530,
+            "ru_maxrss_kb": 23308,
+            "ru_nvcsw": 10
+        },
+        "mop/quad": 2.3330136986301371,
+        "CodeGen(%)": 41.87528046669658,
+        "Frontend(%)": 58.124719533303413
+    },
+    "CurCompileUdps": {},
+    "PEModules": [],
+    "LVLData": [
+        "SIM"
+    ],
+    "SIMBData": {
+        "bytes": 103774,
+        "out": "amcQwB.o",
+        "archive": "archive.5/_130315_archive_1.a"
+    },
+    "CompileProcesses": [
+        "cgproc.130315.json"
+    ]
+}

@@ -1,0 +1,115 @@
+****************************************
+Report : Time Based Power
+	-hierarchy
+	-verbose
+Design : mips_processor
+Version: M-2017.06-SP2
+Date   : Sun Nov 17 16:32:47 2019
+****************************************
+
+Sampling Interval: 0.001 ns
+
+Library(s) Used:
+
+    saed90nm_max (File: /apps/synopsys2017/cafe/SAED/SAED90_EDK/SAED_EDK90nm/Digital_Standard_cell_Library/synopsys/models/saed90nm_max.db)
+
+
+Operating Conditions: WORST   Library: saed90nm_max
+Wire Load Model Mode: enclosed
+
+Cell               Design       Wire_model  Library       Selection_type
+--------------------------------------------------------------------------------
+                   mips_processor
+                                140000      saed90nm_max  automatic-by-area
+control            mips_control 8000        saed90nm_max  automatic-by-area
+a_control          alu_control  8000        saed90nm_max  automatic-by-area
+datapath           mips_datapath
+                                140000      saed90nm_max  automatic-by-area
+datapath/aluOutReg register_width32_1
+                                8000        saed90nm_max  automatic-by-area
+datapath/Registers reg_file     70000       saed90nm_max  automatic-by-area
+datapath/m_alu     alu          16000       saed90nm_max  automatic-by-area
+datapath/m_alu/r65 alu_DW01_cmp6_0
+                                8000        saed90nm_max  automatic-by-area
+datapath/m_alu/add_49
+                   alu_DW01_add_0
+                                8000        saed90nm_max  automatic-by-area
+datapath/m_alu/srl_65
+                   alu_DW_rash_0
+                                8000        saed90nm_max  automatic-by-area
+datapath/m_alu/sub_50
+                   alu_DW01_sub_0
+                                8000        saed90nm_max  automatic-by-area
+datapath/m_alu/sll_64
+                   alu_DW01_ash_0
+                                8000        saed90nm_max  automatic-by-area
+datapath/IR        register_width32_5
+                                8000        saed90nm_max  automatic-by-area
+datapath/A         register_width32_3
+                                8000        saed90nm_max  automatic-by-area
+datapath/B         register_width32_2
+                                8000        saed90nm_max  automatic-by-area
+datapath/MDR       register_width32_4
+                                8000        saed90nm_max  automatic-by-area
+datapath/PC        register_width32_0
+                                8000        saed90nm_max  automatic-by-area
+
+Power-specific unit information :
+    Voltage Units = 1 V
+    Capacitance Units = 1 pf
+    Time Units = 1 ns
+    Dynamic Power Units = 1 W
+    Leakage Power Units = 1 W
+
+
+
+                                      Int      Switch   Leak      Total
+Hierarchy                             Power    Power    Power     Power    %
+--------------------------------------------------------------------------------
+mips_processor                        1.19e-07 1.00e-07 2.58e-04  2.58e-04 100.0
+  control (mips_control)              5.64e-09 1.99e-08 1.30e-06  1.33e-06   0.5
+  a_control (alu_control)                0.000    0.000 3.97e-07  3.97e-07   0.2
+  datapath (mips_datapath)            4.75e-08 8.06e-08 2.55e-04  2.55e-04  98.9
+    aluOutReg (register_width32_1)       0.000    0.000 4.00e-06  4.00e-06   1.5
+    Registers (reg_file)                   N/A    0.000 1.96e-04  1.96e-04  76.0
+    m_alu (alu)                          0.000    0.000 2.62e-05  2.62e-05  10.2
+      r65 (alu_DW01_cmp6_0)              0.000    0.000 2.24e-06  2.24e-06   0.9
+      add_49 (alu_DW01_add_0)            0.000    0.000 2.83e-06  2.83e-06   1.1
+      srl_65 (alu_DW_rash_0)             0.000    0.000 5.57e-06  5.57e-06   2.2
+      sub_50 (alu_DW01_sub_0)            0.000    0.000 2.95e-06  2.95e-06   1.1
+      sll_64 (alu_DW01_ash_0)            0.000    0.000 7.18e-06  7.18e-06   2.8
+    IR (register_width32_5)           2.04e-10    0.000 4.06e-06  4.06e-06   1.6
+    A (register_width32_3)               0.000    0.000 3.91e-06  3.91e-06   1.5
+    B (register_width32_2)            2.34e-08 6.51e-08 4.08e-06  4.17e-06   1.6
+    MDR (register_width32_4)          2.05e-10    0.000 3.94e-06  3.94e-06   1.5
+    PC (register_width32_0)              0.000    0.000 4.08e-06  4.08e-06   1.6
+
+
+                                      Peak     Peak            Glitch   X-tran
+Hierarchy                             Power    Time            Power    Power
+--------------------------------------------------------------------------------
+mips_processor                        1.21e-03 51264.000-51264.001
+                                                                    N/A 8.09e-08
+  control (mips_control)              6.81e-05 4896.391-4896.392
+                                                                  0.000    0.000
+  a_control (alu_control)             3.97e-07   0.000-0.001      0.000    0.000
+  datapath (mips_datapath)            8.01e-04 33696.477-33696.478
+                                                                    N/A 8.09e-08
+    aluOutReg (register_width32_1)    4.08e-06   0.000-0.001      0.000    0.000
+    Registers (reg_file)              1.98e-04 4896.254-4896.255
+                                                                    N/A    0.000
+    m_alu (alu)                       2.62e-05   0.000-0.001      0.000    0.000
+      r65 (alu_DW01_cmp6_0)           2.24e-06   0.000-0.001      0.000    0.000
+      add_49 (alu_DW01_add_0)         2.83e-06   0.000-0.001      0.000    0.000
+      srl_65 (alu_DW_rash_0)          5.57e-06   0.000-0.001      0.000    0.000
+      sub_50 (alu_DW01_sub_0)         2.95e-06   0.000-0.001      0.000    0.000
+      sll_64 (alu_DW01_ash_0)         7.18e-06   0.000-0.001      0.000    0.000
+    IR (register_width32_5)           1.47e-05 51264.000-51264.001
+                                                                  0.000 1.48e-11
+    A (register_width32_3)            3.96e-06   0.000-0.001      0.000    0.000
+    B (register_width32_2)            4.67e-04 36000.478-36000.479
+                                                                  0.000 8.08e-08
+    MDR (register_width32_4)          2.37e-05 51264.000-51264.001
+                                                                  0.000 1.49e-11
+    PC (register_width32_0)           4.20e-06   0.000-0.001      0.000    0.000
+1

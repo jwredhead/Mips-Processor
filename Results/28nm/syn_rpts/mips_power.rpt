@@ -1,0 +1,74 @@
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort low
+Design : mips_processor
+Version: M-2016.12-SP4
+Date   : Sun Nov 17 12:56:37 2019
+****************************************
+
+
+Library(s) Used:
+
+    saed32rvt_tt1p05v125c (File: /apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_rvt/db_ccs/saed32rvt_tt1p05v125c.db)
+
+
+Operating Conditions: tt1p05v125c   Library: saed32rvt_tt1p05v125c
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+mips_processor         35000             saed32rvt_tt1p05v125c
+mips_control           ForQA             saed32rvt_tt1p05v125c
+alu_control            ForQA             saed32rvt_tt1p05v125c
+mips_datapath          35000             saed32rvt_tt1p05v125c
+register_width32_0     8000              saed32rvt_tt1p05v125c
+register_width32_5     8000              saed32rvt_tt1p05v125c
+register_width32_4     8000              saed32rvt_tt1p05v125c
+register_width32_3     8000              saed32rvt_tt1p05v125c
+register_width32_2     8000              saed32rvt_tt1p05v125c
+reg_file               16000             saed32rvt_tt1p05v125c
+alu                    8000              saed32rvt_tt1p05v125c
+register_width32_1     8000              saed32rvt_tt1p05v125c
+alu_DW_rash_0          8000              saed32rvt_tt1p05v125c
+alu_DW01_ash_0         8000              saed32rvt_tt1p05v125c
+alu_DW01_sub_0         ForQA             saed32rvt_tt1p05v125c
+alu_DW01_add_0         ForQA             saed32rvt_tt1p05v125c
+alu_DW01_cmp6_0        8000              saed32rvt_tt1p05v125c
+
+
+Global Operating Voltage = 1.05 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+mips_processor                           46.073    0.000 4.63e+08  509.217 100.0
+  datapath (mips_datapath)               43.040    0.000 4.56e+08  499.239  98.0
+    aluOutReg (register_width32_1)        1.546    0.000 7.06e+06    8.605   1.7
+    m_alu (alu)                          13.145    0.000 7.69e+07   90.020  17.7
+      r65 (alu_DW01_cmp6_0)               2.109    0.000 1.26e+07   14.734   2.9
+      add_49 (alu_DW01_add_0)             0.545    0.000 5.45e+06    5.994   1.2
+      sub_50 (alu_DW01_sub_0)             3.153    0.000 7.11e+06   10.262   2.0
+      sll_64 (alu_DW01_ash_0)             3.173    0.000 1.35e+07   16.657   3.3
+      srl_65 (alu_DW_rash_0)              1.869    0.000 9.43e+06   11.304   2.2
+    Registers (reg_file)                 12.441    0.000 3.24e+08  336.834  66.1
+    B (register_width32_2)                0.671    0.000 7.06e+06    7.730   1.5
+    A (register_width32_3)                0.525    0.000 7.06e+06    7.584   1.5
+    MDR (register_width32_4)              0.911    0.000 7.06e+06    7.971   1.6
+    IR (register_width32_5)               3.088    0.000 7.06e+06   10.147   2.0
+    PC (register_width32_0)               1.857    0.000 7.04e+06    8.892   1.7
+  a_control (alu_control)              9.31e-02    0.000 2.10e+06    2.189   0.4
+  control (mips_control)                  2.940    0.000 4.85e+06    7.788   1.5
+1
