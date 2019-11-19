@@ -1,2 +1,163 @@
-Error: Current design is not defined. (UID-4)
-0
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -max_paths 5
+Design : mips_processor
+Version: M-2016.12-SP4
+Date   : Mon Nov 18 21:54:54 2019
+****************************************
+
+ * Some/all delay information is back-annotated.
+
+Operating Conditions: WORST   Library: saed90nm_max
+
+Information: Percent of Arnoldi-based delays = 10.04%
+
+  Startpoint: datapath/Registers/mem_reg_26__22_
+              (rising edge-triggered flip-flop clocked by ideal_clock1)
+  Endpoint: datapath/Registers/mem_reg_26__22_
+            (rising edge-triggered flip-flop clocked by ideal_clock1)
+  Path Group: ideal_clock1
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock ideal_clock1 (rise edge)                          0.00       0.00
+  clock network delay (propagated)                        0.25       0.25
+  datapath/Registers/mem_reg_26__22_/CLK (DFFX1)          0.00       0.25 r
+  datapath/Registers/mem_reg_26__22_/Q (DFFX1)            0.71       0.96 f
+  datapath/Registers/U997/Q (AO22X1)                      0.25 &     1.21 f
+  datapath/Registers/mem_reg_26__22_/D (DFFX1)            0.00 &     1.21 f
+  data arrival time                                                  1.21
+
+  clock ideal_clock1 (rise edge)                          0.00       0.00
+  clock network delay (propagated)                        0.25       0.25
+  datapath/Registers/mem_reg_26__22_/CLK (DFFX1)          0.00       0.25 r
+  library hold time                                       0.01       0.26
+  data required time                                                 0.26
+  --------------------------------------------------------------------------
+  data required time                                                 0.26
+  data arrival time                                                 -1.21
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.95
+
+
+  Startpoint: datapath/Registers/mem_reg_11__12_
+              (rising edge-triggered flip-flop clocked by ideal_clock1)
+  Endpoint: datapath/Registers/mem_reg_11__12_
+            (rising edge-triggered flip-flop clocked by ideal_clock1)
+  Path Group: ideal_clock1
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock ideal_clock1 (rise edge)                          0.00       0.00
+  clock network delay (propagated)                        0.25       0.25
+  datapath/Registers/mem_reg_11__12_/CLK (DFFX1)          0.00       0.25 r
+  datapath/Registers/mem_reg_11__12_/Q (DFFX1)            0.72       0.96 f
+  datapath/Registers/U503/Q (AO22X1)                      0.25 &     1.21 f
+  datapath/Registers/mem_reg_11__12_/D (DFFX1)            0.00 &     1.21 f
+  data arrival time                                                  1.21
+
+  clock ideal_clock1 (rise edge)                          0.00       0.00
+  clock network delay (propagated)                        0.25       0.25
+  datapath/Registers/mem_reg_11__12_/CLK (DFFX1)          0.00       0.25 r
+  library hold time                                       0.01       0.26
+  data required time                                                 0.26
+  --------------------------------------------------------------------------
+  data required time                                                 0.26
+  data arrival time                                                 -1.21
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.95
+
+
+  Startpoint: datapath/Registers/mem_reg_26__14_
+              (rising edge-triggered flip-flop clocked by ideal_clock1)
+  Endpoint: datapath/Registers/mem_reg_26__14_
+            (rising edge-triggered flip-flop clocked by ideal_clock1)
+  Path Group: ideal_clock1
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock ideal_clock1 (rise edge)                          0.00       0.00
+  clock network delay (propagated)                        0.25       0.25
+  datapath/Registers/mem_reg_26__14_/CLK (DFFX1)          0.00       0.25 r
+  datapath/Registers/mem_reg_26__14_/Q (DFFX1)            0.71       0.96 f
+  datapath/Registers/U989/Q (AO22X1)                      0.25 &     1.21 f
+  datapath/Registers/mem_reg_26__14_/D (DFFX1)            0.00 &     1.21 f
+  data arrival time                                                  1.21
+
+  clock ideal_clock1 (rise edge)                          0.00       0.00
+  clock network delay (propagated)                        0.25       0.25
+  datapath/Registers/mem_reg_26__14_/CLK (DFFX1)          0.00       0.25 r
+  library hold time                                       0.01       0.26
+  data required time                                                 0.26
+  --------------------------------------------------------------------------
+  data required time                                                 0.26
+  data arrival time                                                 -1.21
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.96
+
+
+  Startpoint: datapath/Registers/mem_reg_18__21_
+              (rising edge-triggered flip-flop clocked by ideal_clock1)
+  Endpoint: datapath/Registers/mem_reg_18__21_
+            (rising edge-triggered flip-flop clocked by ideal_clock1)
+  Path Group: ideal_clock1
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock ideal_clock1 (rise edge)                          0.00       0.00
+  clock network delay (propagated)                        0.24       0.24
+  datapath/Registers/mem_reg_18__21_/CLK (DFFX1)          0.00       0.24 r
+  datapath/Registers/mem_reg_18__21_/Q (DFFX1)            0.71       0.95 f
+  datapath/Registers/U737/Q (AO22X1)                      0.25 &     1.20 f
+  datapath/Registers/mem_reg_18__21_/D (DFFX1)            0.00 &     1.20 f
+  data arrival time                                                  1.20
+
+  clock ideal_clock1 (rise edge)                          0.00       0.00
+  clock network delay (propagated)                        0.24       0.24
+  datapath/Registers/mem_reg_18__21_/CLK (DFFX1)          0.00       0.24 r
+  library hold time                                       0.01       0.25
+  data required time                                                 0.25
+  --------------------------------------------------------------------------
+  data required time                                                 0.25
+  data arrival time                                                 -1.20
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.96
+
+
+  Startpoint: datapath/Registers/mem_reg_26__27_
+              (rising edge-triggered flip-flop clocked by ideal_clock1)
+  Endpoint: datapath/Registers/mem_reg_26__27_
+            (rising edge-triggered flip-flop clocked by ideal_clock1)
+  Path Group: ideal_clock1
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock ideal_clock1 (rise edge)                          0.00       0.00
+  clock network delay (propagated)                        0.25       0.25
+  datapath/Registers/mem_reg_26__27_/CLK (DFFX1)          0.00       0.25 r
+  datapath/Registers/mem_reg_26__27_/Q (DFFX1)            0.71       0.96 f
+  datapath/Registers/U1002/Q (AO22X1)                     0.25 &     1.21 f
+  datapath/Registers/mem_reg_26__27_/D (DFFX1)            0.00 &     1.21 f
+  data arrival time                                                  1.21
+
+  clock ideal_clock1 (rise edge)                          0.00       0.00
+  clock network delay (propagated)                        0.25       0.25
+  datapath/Registers/mem_reg_26__27_/CLK (DFFX1)          0.00       0.25 r
+  library hold time                                       0.01       0.26
+  data required time                                                 0.26
+  --------------------------------------------------------------------------
+  data required time                                                 0.26
+  data arrival time                                                 -1.21
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.96
+
+
+1

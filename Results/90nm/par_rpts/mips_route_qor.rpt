@@ -1,2 +1,164 @@
-Error: Current design is not defined. (UID-4)
-0
+
+  Loading design 'mips_processor'
+
+
+
+
+Information: Library Manufacturing Grid(GridResolution) : 5
+Information: Time Unit from Milkyway design library: 'ns' 
+Information: Design Library and main library timing units are matched - 1.000 ns. 
+Information: Resistance Unit from Milkyway design library: 'kohm' 
+Warning: Mismatch in the main library and the Milkyway library resistance units. In the main library it is 1000.000 kohm and in the Milkyway design library it is 1.000 kohm. Check and correct the resistance units in the .tf and .db files. (PSYN-476)
+Information: Capacitance Unit from Milkyway design library: 'pf' 
+Warning: Mismatch in the main and the Milkyway library capacitance units. In the main library it is 0.001 pf and in the Milkyway design library it is 1.000 pf. Check and correct the capacitance units in the .tf and .db files. (PSYN-477)
+Warning: Inconsistent library data found for layer PO. (RCEX-018)
+
+TLU+ File = /apps/synopsys2017/cafe/SAED/SAED90_EDK/SAED_EDK90nm/Technology_Kit/starrcxt/tluplus/saed90nm_1p9m_1t_Cmax.tluplus
+TLU+ File = /apps/synopsys2017/cafe/SAED/SAED90_EDK/SAED_EDK90nm/Technology_Kit/starrcxt/tluplus/saed90nm_1p9m_1t_Cmin.tluplus
+
+--------- Sanity Check on TLUPlus Files -------------
+1. Checking the conducting layer names in ITF and mapping file ... 
+[ Passed! ]
+2. Checking the via layer names in ITF and mapping file ... 
+[ Passed! ]
+3. Checking the consistency of Min Width and Min Spacing between MW-tech and ITF ... 
+[ Passed! ]
+----------------- Check Ends ------------------
+Information: The distance unit in Capacitance and Resistance is 1 micron. (RCEX-007)
+Information: The RC model used is detail route TLU+. (RCEX-015)
+Information: Start mixed mode parasitic extraction. (RCEX-023)
+Information: Start rc extraction...
+Warning: Net 'datapath/n_Logic1_' is not fully connected and will be estimated. (RCEX-060)
+Information: Parasitic source is LPE. (RCEX-040)
+Information: Parasitic mode is RealRC. (RCEX-041)
+Information: Using virtual shield extraction. (RCEX-081)
+Information: Extraction mode is MIN_MAX. (RCEX-042)
+Information: Extraction derate is 125/125/125. (RCEX-043)
+Information: Coupling capacitances are lumped to ground. (RCEX-044)
+Information: Start back annotation for parasitic extraction. (RCEX-023)
+Information: End back annotation for parasitic extraction. (RCEX-023)
+Information: Start timing update for parasitic extraction. (RCEX-023)
+Information: End timing update for parasitic extraction. (RCEX-023)
+Information: End parasitic extraction. (RCEX-023)
+Information: Start rc update...
+****************************************************************
+Information: TLUPlus based RC computation is enabled. (RCEX-141)
+****************************************************************
+Information: The distance unit in Capacitance and Resistance is 1 micron. (RCEX-007)
+Information: The RC model used is TLU+. (RCEX-015)
+Information: Library Derived Cap for layer M1 : 0.22 0.19 (RCEX-011)
+Information: Library Derived Res for layer M1 : 6.4e-07 6.4e-07 (RCEX-011)
+Information: Library Derived Cap for layer M2 : 0.25 0.21 (RCEX-011)
+Information: Library Derived Res for layer M2 : 5.6e-07 5.6e-07 (RCEX-011)
+Information: Library Derived Cap for layer M3 : 0.25 0.21 (RCEX-011)
+Information: Library Derived Res for layer M3 : 5.6e-07 5.6e-07 (RCEX-011)
+Information: Library Derived Cap for layer M4 : 0.25 0.21 (RCEX-011)
+Information: Library Derived Res for layer M4 : 5.6e-07 5.6e-07 (RCEX-011)
+Information: Library Derived Cap for layer M5 : 0.25 0.21 (RCEX-011)
+Information: Library Derived Res for layer M5 : 5.6e-07 5.6e-07 (RCEX-011)
+Information: Library Derived Cap for layer M6 : 0.25 0.21 (RCEX-011)
+Information: Library Derived Res for layer M6 : 5.6e-07 5.6e-07 (RCEX-011)
+Information: Library Derived Cap for layer M7 : 0.25 0.21 (RCEX-011)
+Information: Library Derived Res for layer M7 : 5.6e-07 5.6e-07 (RCEX-011)
+Information: Library Derived Cap for layer M8 : 0.25 0.21 (RCEX-011)
+Information: Library Derived Res for layer M8 : 5.6e-07 5.6e-07 (RCEX-011)
+Information: Library Derived Cap for layer M9 : 0.3 0.23 (RCEX-011)
+Information: Library Derived Res for layer M9 : 6.2e-08 6.2e-08 (RCEX-011)
+Information: Library Derived Horizontal Cap : 0.25 0.21 (RCEX-011)
+Information: Library Derived Horizontal Res : 4.8e-07 4.8e-07 (RCEX-011)
+Information: Library Derived Vertical Cap : 0.25 0.21 (RCEX-011)
+Information: Library Derived Vertical Res : 5.6e-07 5.6e-07 (RCEX-011)
+Information: Using derived R and C coefficients. (RCEX-008)
+Information: Using region-based R and C coefficients. (RCEX-013)
+Information: Library Derived Via Res : 8e-07 8e-07 (RCEX-011)
+Information: End rc update.
+Information: Updating graph... (UID-83)
+Information: Updating design information... (UID-85)
+Information: Input delay ('rise') on clock port 'ideal_clock1' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('fall') on clock port 'ideal_clock1' will be added to the clock's propagated skew. (TIM-112)
+ 
+****************************************
+Report : qor
+Design : mips_processor
+Version: M-2016.12-SP4
+Date   : Mon Nov 18 21:54:17 2019
+****************************************
+
+
+  Timing Path Group 'ideal_clock1'
+  -----------------------------------
+  Levels of Logic:              50.00
+  Critical Path Length:         20.93
+  Critical Path Slack:         554.95
+  Critical Path Clk Period:    576.00
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:          0.00
+  Total Hold Violation:          0.00
+  No. of Hold Violations:        0.00
+  -----------------------------------
+
+
+  Cell Count
+  -----------------------------------
+  Hierarchical Cell Count:         16
+  Hierarchical Port Count:       1238
+  Leaf Cell Count:               5519
+  Buf/Inv Cell Count:             705
+  Buf Cell Count:                 403
+  Inv Cell Count:                 302
+  CT Buf/Inv Cell Count:           12
+  Combinational Cell Count:      4299
+  Sequential Cell Count:         1220
+  Macro Count:                      0
+  -----------------------------------
+
+
+  Area
+  -----------------------------------
+  Combinational Area:    47050.444158
+  Noncombinational Area: 30357.503624
+  Buf/Inv Area:           5357.260836
+  Total Buffer Area:          3280.90
+  Total Inverter Area:        2076.36
+  Macro/Black Box Area:      0.000000
+  Net Area:               8890.589184
+  Net XLength        :      193938.23
+  Net YLength        :      253860.23
+  -----------------------------------
+  Cell Area:             77407.947782
+  Design Area:           86298.536966
+  Net Length        :       447798.47
+
+
+  Design Rules
+  -----------------------------------
+  Total Number of Nets:          5624
+  Nets With Violations:             1
+  Max Trans Violations:             1
+  Max Cap Violations:               0
+  -----------------------------------
+
+
+  Hostname: blackhawk
+
+  Compile CPU Statistics
+  -----------------------------------------
+  Resource Sharing:                    1.05
+  Logic Optimization:                  2.30
+  Mapping Optimization:                6.93
+  -----------------------------------------
+  Overall Compile Time:               12.79
+  Overall Compile Wall Clock Time:    13.32
+
+  --------------------------------------------------------------------
+
+  Design  WNS: 0.00  TNS: 0.00  Number of Violating Paths: 0
+
+
+  Design (Hold)  WNS: 0.00  TNS: 0.00  Number of Violating Paths: 0
+
+  --------------------------------------------------------------------
+
+
+1
