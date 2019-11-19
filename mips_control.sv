@@ -29,7 +29,9 @@
 						MAW - Memory Access Write for SW
 						WB - Write Back for LW
 						EX - Execution for R Instruction
+						EXI - Execution for R Immeditiate Instruction
 						RC - R Instruction Completion
+						RCI - R Immediate Instruction Complete
 						BC - Branch Completion
 						JC - Jump Completion
 						
