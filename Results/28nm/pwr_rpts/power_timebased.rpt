@@ -1,0 +1,134 @@
+****************************************
+Report : Time Based Power
+	-hierarchy
+	-verbose
+Design : mips_processor
+Version: M-2017.06-SP2
+Date   : Sun Nov 17 16:29:27 2019
+****************************************
+
+Sampling Interval: 0.001 ns
+
+Library(s) Used:
+
+    saed32rvt_tt1p05v125c (File: /apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_rvt/db_ccs/saed32rvt_tt1p05v125c.db)
+    saed32rvt_tt1p05v25c (File: /apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_rvt/db_ccs/saed32rvt_tt1p05v25c.db)
+    saed32rvt_tt1p05vn40c (File: /apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_rvt/db_ccs/saed32rvt_tt1p05vn40c.db)
+
+
+Operating Conditions: tt1p05v125c   Library: saed32rvt_tt1p05v125c
+Wire Load Model Mode: enclosed
+
+Cell               Design       Wire_model  Library       Selection_type
+--------------------------------------------------------------------------------
+                   mips_processor
+                                35000       saed32rvt_tt1p05v125c
+                                                          automatic-by-area
+a_control          alu_control  ForQA       saed32rvt_tt1p05v125c
+                                                          automatic-by-area
+datapath           mips_datapath
+                                35000       saed32rvt_tt1p05v125c
+                                                          automatic-by-area
+datapath/aluOutReg register_width32_1
+                                8000        saed32rvt_tt1p05v125c
+                                                          automatic-by-area
+datapath/Registers reg_file     16000       saed32rvt_tt1p05v125c
+                                                          automatic-by-area
+datapath/m_alu     alu          8000        saed32rvt_tt1p05v125c
+                                                          automatic-by-area
+datapath/m_alu/r65 alu_DW01_cmp6_0
+                                8000        saed32rvt_tt1p05v125c
+                                                          automatic-by-area
+datapath/m_alu/add_49
+                   alu_DW01_add_0
+                                ForQA       saed32rvt_tt1p05v125c
+                                                          automatic-by-area
+datapath/m_alu/srl_65
+                   alu_DW_rash_0
+                                8000        saed32rvt_tt1p05v125c
+                                                          automatic-by-area
+datapath/m_alu/sub_50
+                   alu_DW01_sub_0
+                                8000        saed32rvt_tt1p05v125c
+                                                          automatic-by-area
+datapath/m_alu/sll_64
+                   alu_DW01_ash_0
+                                8000        saed32rvt_tt1p05v125c
+                                                          automatic-by-area
+datapath/IR        register_width32_5
+                                8000        saed32rvt_tt1p05v125c
+                                                          automatic-by-area
+datapath/A         register_width32_3
+                                8000        saed32rvt_tt1p05v125c
+                                                          automatic-by-area
+datapath/B         register_width32_2
+                                8000        saed32rvt_tt1p05v125c
+                                                          automatic-by-area
+datapath/MDR       register_width32_4
+                                8000        saed32rvt_tt1p05v125c
+                                                          automatic-by-area
+datapath/PC        register_width32_0
+                                8000        saed32rvt_tt1p05v125c
+                                                          automatic-by-area
+control            mips_control ForQA       saed32rvt_tt1p05v125c
+                                                          automatic-by-area
+
+Power-specific unit information :
+    Voltage Units = 1 V
+    Capacitance Units = 1 pf
+    Time Units = 1 ns
+    Dynamic Power Units = 1 W
+    Leakage Power Units = 1 W
+
+
+
+                                      Int      Switch   Leak      Total
+Hierarchy                             Power    Power    Power     Power    %
+--------------------------------------------------------------------------------
+mips_processor                        1.08e-07 7.94e-08 4.49e-04  4.49e-04 100.0
+  a_control (alu_control)                0.000    0.000 2.10e-06  2.10e-06   0.5
+  control (mips_control)              3.03e-09 2.34e-08 4.69e-06  4.72e-06   1.1
+  datapath (mips_datapath)            1.05e-07 5.60e-08 4.42e-04  4.42e-04  98.4
+    aluOutReg (register_width32_1)       0.000    0.000 6.72e-06  6.72e-06   1.5
+    Registers (reg_file)              8.06e-10    0.000 3.13e-04  3.13e-04  69.9
+    m_alu (alu)                          0.000    0.000 7.49e-05  7.49e-05  16.7
+      r65 (alu_DW01_cmp6_0)              0.000    0.000 1.26e-05  1.26e-05   2.8
+      add_49 (alu_DW01_add_0)            0.000    0.000 5.45e-06  5.45e-06   1.2
+      srl_65 (alu_DW_rash_0)             0.000    0.000 9.09e-06  9.09e-06   2.0
+      sub_50 (alu_DW01_sub_0)            0.000    0.000 7.11e-06  7.11e-06   1.6
+      sll_64 (alu_DW01_ash_0)            0.000    0.000 1.30e-05  1.30e-05   2.9
+    IR (register_width32_5)           1.62e-09    0.000 6.72e-06  6.72e-06   1.5
+    A (register_width32_3)               0.000    0.000 6.72e-06  6.72e-06   1.5
+    B (register_width32_2)            9.27e-08 3.97e-08 6.86e-06  6.99e-06   1.6
+    MDR (register_width32_4)          1.62e-09    0.000 6.72e-06  6.72e-06   1.5
+    PC (register_width32_0)              0.000    0.000 6.77e-06  6.77e-06   1.5
+
+
+                                      Peak     Peak            Glitch   X-tran
+Hierarchy                             Power    Time            Power    Power
+--------------------------------------------------------------------------------
+mips_processor                        4.02e-03 33696.366-33696.367
+                                                                  0.000 1.19e-07
+  a_control (alu_control)             2.10e-06   0.000-0.001      0.000    0.000
+  control (mips_control)              3.66e-04 4896.343-4896.344
+                                                                  0.000    0.000
+  datapath (mips_datapath)            3.96e-03 33696.366-33696.367
+                                                                  0.000 1.19e-07
+    aluOutReg (register_width32_1)    6.72e-06   0.000-0.001      0.000    0.000
+    Registers (reg_file)              3.29e-04 4896.343-4896.344
+                                                                  0.000    0.000
+    m_alu (alu)                       7.49e-05   0.000-0.001      0.000    0.000
+      r65 (alu_DW01_cmp6_0)           1.26e-05   0.000-0.001      0.000    0.000
+      add_49 (alu_DW01_add_0)         5.45e-06   0.000-0.001      0.000    0.000
+      srl_65 (alu_DW_rash_0)          9.09e-06   0.000-0.001      0.000    0.000
+      sub_50 (alu_DW01_sub_0)         7.11e-06   0.000-0.001      0.000    0.000
+      sll_64 (alu_DW01_ash_0)         1.30e-05   0.000-0.001      0.000    0.000
+    IR (register_width32_5)           8.71e-05 51264.000-51264.001
+                                                                  0.000 1.96e-10
+    A (register_width32_3)            6.72e-06   0.000-0.001      0.000    0.000
+    B (register_width32_2)            3.14e-03 36000.282-36000.283
+                                                                  0.000 1.17e-07
+    MDR (register_width32_4)          1.01e-04 51264.000-51264.001
+                                                                  0.000 1.96e-10
+    PC (register_width32_0)           6.77e-06   0.000-0.001      0.000    0.000
+1

@@ -1,0 +1,75 @@
+Loading db file '/apps/synopsys2017/cafe/SAED/SAED90_EDK/SAED_EDK90nm/Digital_Standard_cell_Library/synopsys/models/saed90nm_max.db'
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort low
+Design : mips_processor
+Version: M-2016.12-SP4
+Date   : Sat Nov 16 20:33:00 2019
+****************************************
+
+
+Library(s) Used:
+
+    saed90nm_max (File: /apps/synopsys2017/cafe/SAED/SAED90_EDK/SAED_EDK90nm/Digital_Standard_cell_Library/synopsys/models/saed90nm_max.db)
+
+
+Operating Conditions: WORST   Library: saed90nm_max
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+mips_processor         140000            saed90nm_max
+mips_control           8000              saed90nm_max
+alu_control            8000              saed90nm_max
+mips_datapath          140000            saed90nm_max
+register_width32_0     8000              saed90nm_max
+reg_file               70000             saed90nm_max
+alu                    16000             saed90nm_max
+register_width32_1     8000              saed90nm_max
+register_width32_2     8000              saed90nm_max
+register_width32_3     8000              saed90nm_max
+register_width32_4     8000              saed90nm_max
+register_width32_5     8000              saed90nm_max
+alu_DW_rash_0          8000              saed90nm_max
+alu_DW01_ash_0         8000              saed90nm_max
+alu_DW01_sub_0         8000              saed90nm_max
+alu_DW01_add_0         8000              saed90nm_max
+alu_DW01_cmp6_0        8000              saed90nm_max
+
+
+Global Operating Voltage = 0.7  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+mips_processor                            0.501    1.607 2.65e+08  267.290 100.0
+  datapath (mips_datapath)                0.476    1.572 2.63e+08  264.992  99.1
+    aluOutReg (register_width32_1)     1.37e-02 2.82e-02 3.99e+06    4.030   1.5
+    m_alu (alu)                           0.153    0.422 3.12e+07   31.770  11.9
+      r65 (alu_DW01_cmp6_0)            2.47e-02 5.33e-02 3.73e+06    3.812   1.4
+      add_49 (alu_DW01_add_0)          6.14e-03 6.56e-02 2.92e+06    2.989   1.1
+      sub_50 (alu_DW01_sub_0)          3.98e-02    0.101 3.46e+06    3.599   1.3
+      sll_64 (alu_DW01_ash_0)          3.52e-02 9.47e-02 7.86e+06    7.988   3.0
+      srl_65 (alu_DW_rash_0)           1.84e-02 3.41e-02 5.71e+06    5.761   2.2
+    Registers (reg_file)                  0.139    0.886 2.00e+08  200.651  75.1
+    B (register_width32_2)             5.80e-03 1.15e-02 3.98e+06    3.994   1.5
+    A (register_width32_3)             4.86e-03 8.74e-03 3.97e+06    3.986   1.5
+    MDR (register_width32_4)           8.12e-03 4.41e-02 4.06e+06    4.111   1.5
+    IR (register_width32_5)            3.02e-02 6.21e-02 4.10e+06    4.195   1.6
+    PC (register_width32_0)            1.86e-02 2.04e-02 4.12e+06    4.162   1.6
+  a_control (alu_control)              1.76e-03 3.99e-03 5.28e+05    0.533   0.2
+  control (mips_control)               2.26e-02 3.05e-02 1.71e+06    1.765   0.7
+1

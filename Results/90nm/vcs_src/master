@@ -1,0 +1,9 @@
+../mips_processor/alu_control.sv
+../mips_processor/alu.sv
+../mips_processor/mips_control.sv
+../mips_processor/mips_datapath.sv
+../mips_processor/mips_processor.sv
+../mips_processor/mips_processor_tb.sv
+../mips_processor/reg_file.sv
+../mips_processor/register.sv
+

@@ -1,0 +1,5 @@
+/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/verilog/saed32nm_hvt.v
+/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_rvt/verilog/saed32nm.v
+/home/student/jkw0002/CPE527L/PROJECT/28nm/vcs_post_par/mips_par.sv
+/home/student/jkw0002/CPE527L/PROJECT/28nm/vcs_post_par/mips_processor_tb.sv

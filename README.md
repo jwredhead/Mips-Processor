@@ -1,1 +1,3 @@
-# Mips-Processor
+# MIPS_Processor
+
+CPE527

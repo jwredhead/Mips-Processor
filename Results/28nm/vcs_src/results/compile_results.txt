@@ -1,0 +1,30 @@
+                         Chronologic VCS (TM)
+       Version M-2017.03-SP1_Full64 -- Fri Nov 15 20:56:24 2019
+               Copyright (c) 1991-2017 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../mips_processor/alu_control.sv'
+Parsing design file '../mips_processor/alu.sv'
+Parsing design file '../mips_processor/mips_control.sv'
+Parsing design file '../mips_processor/mips_datapath.sv'
+Parsing design file '../mips_processor/mips_processor.sv'
+Parsing design file '../mips_processor/mips_processor_tb.sv'
+Parsing design file '../mips_processor/reg_file.sv'
+Parsing design file '../mips_processor/register.sv'
+Top Level Modules:
+       mips_processor_tb
+TimeScale is 1 ns / 1 ps
+Starting vcs inline pass...
+1 unique modules to generate
+recompiling module mips_processor_tb
+rm -f _csrc*.so pre_vcsobj_*.so share_vcsobj_*.so
+ld -shared  -o .//../simv.daidir//_csrc0.so objs/amcQw_d.o 
+rm -f _csrc0.so
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv   -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath=./simv.daidir/ -Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  -rdynamic     _131453_archive_1.so _prev_archive_1.so _csrc0.so  SIM_l.o  _csrc0.so     rmapats_mop.o rmapats.o rmar.o rmar_nd.o  rmar_llvm_0_1.o rmar_llvm_0_0.o          /apps/synopsys2017/vcs/M-2017.03-SP1/linux64/lib/libzerosoft_rt_stubs.so /apps/synopsys2017/vcs/M-2017.03-SP1/linux64/lib/libvirsim.so /apps/synopsys2017/vcs/M-2017.03-SP1/linux64/lib/liberrorinf.so /apps/synopsys2017/vcs/M-2017.03-SP1/linux64/lib/libsnpsmalloc.so    /apps/synopsys2017/vcs/M-2017.03-SP1/linux64/lib/libvcsnew.so /apps/synopsys2017/vcs/M-2017.03-SP1/linux64/lib/libsimprofile.so /apps/synopsys2017/vcs/M-2017.03-SP1/linux64/lib/libuclinative.so /apps/synopsys2017/vcs/M-2017.03-SP1/linux64/lib/vcs_tls.o   -Wl,-whole-archive /apps/synopsys2017/vcs/M-2017.03-SP1/linux64/lib/libvcsucli.so -Wl,-no-whole-archive          /apps/synopsys2017/vcs/M-2017.03-SP1/linux64/lib/vcs_save_restore_new.o -ldl  -lc -lm -lpthread -ldl 
+../simv up to date
+CPU time: .252 seconds to compile + .250 seconds to elab + .168 seconds to link

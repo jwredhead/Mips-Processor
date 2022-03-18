@@ -1,0 +1,93 @@
+0 
+33
++itf+/apps/synopsys2017/vcs/M-2017.03-SP1/linux64/lib/vcsdp.tab
++memcbk
++vcsd
++vpi
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -O -I/apps/synopsys2017/vcs/M-2017.03-SP1/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -rdynamic
+-Mobjects= /apps/synopsys2017/vcs/M-2017.03-SP1/linux64/lib/libvirsim.so /apps/synopsys2017/vcs/M-2017.03-SP1/linux64/lib/liberrorinf.so /apps/synopsys2017/vcs/M-2017.03-SP1/linux64/lib/libsnpsmalloc.so
+-Mout=simv
+-Msaverestoreobj=/apps/synopsys2017/vcs/M-2017.03-SP1/linux64/lib/vcs_save_restore_new.o
+-Msyslibs=-ldl
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/apps/synopsys2017/vcs/M-2017.03-SP1/include
+-Xpiyushb1=0x80
+-debug_access+all+dmptf+bc
+-debug_region=cell+lib
+-full64
+-gen_obj
+-picarchive
+-sverilog
+/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/verilog/saed32nm_hvt.v
+/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+/apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_rvt/verilog/saed32nm.v
+/apps/synopsys2017/vcs/M-2017.03-SP1/linux64/bin/vcs1
+mips_processor_tb.sv
+mips_syn.sv
+43
+sysc_uni_pwd=/home/student/jkw0002/CPE527L/PROJECT/28nm/vcs_post_syn
+XDG_SESSION_ID=618259
+XDG_RUNTIME_DIR=/run/user/17330
+XDG_DATA_DIRS=/home/student/jkw0002/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+VMR_MODE_FLAG=64
+VCS_MODE_FLAG=64
+VCS_HOME=/apps/synopsys2017/vcs/M-2017.03-SP1
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH=linux64
+UNAME=/bin/uname
+TOOL_HOME=/apps/synopsys2017/vcs/M-2017.03-SP1/linux64
+TBBROOT=/opt/intel/compilers_and_libraries_2019.1.144/linux/tbb
+SSH_TTY=/dev/pts/18
+SSH_CONNECTION=24.96.232.129 62012 146.229.162.184 22
+SSH_CLIENT=24.96.232.129 62012 22
+SNPS_VCS_CLANG_PATH=/fs/src/interfaces/LLVM_Project/QSCM/opt/llvm-3.9.1/linux64
+SNPSLMD=1717@lm1.eng.uah.edu
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+QSIM_HOME=/apps/MentorGraphics2016/questasim
+PSTLROOT=/opt/intel/compilers_and_libraries_2019.1.144/linux/pstl
+PKG_CONFIG_PATH=/opt/intel/compilers_and_libraries_2019.1.144/linux/mkl/bin/pkgconfig
+OVA_UUM=0
+OMP_NUM_THREADS=12
+MODULESHOME=/usr/share/Modules
+MODULEPATH=/usr/share/Modules/modulefiles:/etc/modulefiles
+MODEL_TECH=/apps/MentorGraphics2016/questasim
+MKLROOT=/opt/intel/compilers_and_libraries_2019.1.144/linux/mkl
+MGC_HOME=/apps/MentorGraphics2016
+LOADEDMODULES=
+LIBRARY_PATH=/opt/intel/compilers_and_libraries_2019.1.144/linux/ipp/lib/ia32:/opt/intel/compilers_and_libraries_2019.1.144/linux/compiler/lib/ia32_lin:/opt/intel/compilers_and_libraries_2019.1.144/linux/mkl/lib/ia32_lin:/opt/intel/compilers_and_libraries_2019.1.144/linux/tbb/lib/ia32/gcc4.7:/opt/intel/compilers_and_libraries_2019.1.144/linux/tbb/lib/ia32/gcc4.7:/opt/intel/compilers_and_libraries_2019.1.144/linux/daal/lib/ia32_lin:/opt/intel/compilers_and_libraries_2019.1.144/linux/daal/../tbb/lib/ia32_lin/gcc4.4
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LC_ALL=C
+IPPROOT=/opt/intel/compilers_and_libraries_2019.1.144/linux/ipp
+INTEL_TARGET_ARCH_IA32=ia32
+INTEL_PYTHONHOME=/opt/intel/debugger_2019/python/intel64/
+INTEL_LICENSE_FILE=/opt/intel/compilers_and_libraries_2019.1.144/linux/licenses:/opt/intel/licenses:/home/student/jkw0002/intel/licenses
+HISTCONTROL=ignoredups
+DAALROOT=/opt/intel/compilers_and_libraries_2019.1.144/linux/daal
+CPATH=/opt/intel/compilers_and_libraries_2019.1.144/linux/ipp/include:/opt/intel/compilers_and_libraries_2019.1.144/linux/mkl/include:/opt/intel/compilers_and_libraries_2019.1.144/linux/pstl/include:/opt/intel/compilers_and_libraries_2019.1.144/linux/tbb/include:/opt/intel/compilers_and_libraries_2019.1.144/linux/tbb/include:/opt/intel/compilers_and_libraries_2019.1.144/linux/daal/include
+CLASSPATH=/opt/intel/compilers_and_libraries_2019.1.144/linux/daal/lib/daal.jar
+BASH_FUNC_module()=() {  eval `/usr/bin/modulecmd bash $*`_}
+0
+6
+1574028468 mips_processor_tb.sv
+1574017544 mips_syn.sv
+1336124362 /apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_rvt/verilog/saed32nm.v
+1330712491 /apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+1330713033 /apps/synopsys2017/cafe/SAED/SAED32_EDK/lib/stdcell_hvt/verilog/saed32nm_hvt.v
+1495597133 /apps/synopsys2017/vcs/M-2017.03-SP1/linux64/lib/vcsdp.tab
+4
+0 
+1495597989 /apps/synopsys2017/vcs/M-2017.03-SP1/linux64/lib/libvirsim.so
+1495597277 /apps/synopsys2017/vcs/M-2017.03-SP1/linux64/lib/liberrorinf.so
+1495597238 /apps/synopsys2017/vcs/M-2017.03-SP1/linux64/lib/libsnpsmalloc.so
+1574028489 simv.daidir
